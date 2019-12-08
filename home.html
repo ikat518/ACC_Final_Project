@@ -1,0 +1,94 @@
+<html lang="en">
+<head>
+<title>Home Page</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="CSS/home.css">
+<link rel="icon" href="img/puppy6.png" type="image/gif" sizes="16x16">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+<div class="header">
+    <nav class="nav">
+        <a href="#">home</a>
+        <a href="about.html">About</a>
+        <a href="findus.html" >Find Us</a>
+        <a href="contact.html" >Contact</a>
+    </nav>
+  <img src="IMG/puppy_grass.jpg" style="height: 100%; width: 100%;";>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2><a href="javascript:void(0)" class="w3-bar-item w3-button w3-padding" onclick="document.getElementById('newsletter').style.display='block'"style="text-align: center;">Want to know what our fluffy are doing now</a> </h2>
+      <h5>Content</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+    <div class="card">
+      <h2>TITLE HEADING</h2>
+      <h5>Content</h5>
+      <div class="fakeimg" style="height:200px;">Image</div>
+      <p>Some text..</p>
+      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h4>Rescue a animal now and be apart of the change</h4>
+      <h2>Donate</h2>
+      <div id="div1">
+        <form action="Pay.html">
+          <label for="fname">Username</label>
+          <input type="text" id="fname" name="Username" placeholder="Your Username..">
+      
+          <label for="lname">Password</label>
+          <input type="text" id="lname" name="Password" placeholder="Your Password..">
+      
+          <label for="country">Donate</label>
+          <select id="country" name="country">
+            <option value="australia">$500</option>
+            <option value="canada">$1000</option>
+            <option value="usa">$10,000</option>
+          </select>
+          <a href="Pay.html" >
+          <input type="login" value="login">
+        </form>
+      </div>
+    </div>
+    <div class="card">
+      <h3>Popular Post</h3>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+      <div class="fakeimg"><p>Image</p></div>
+    </div>
+    <div class="card">
+      <h3>Follow Me</h3>
+      <p>Some text..</p>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+  <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+  <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+  <a href="https://www.youtube.com/" class="fa fa-youtube"></a>
+  <a href="https://www.snapchat.com/" class="fa fa-snapchat-ghost"></a>
+</div>
+<!-- Newsletter Modal -->
+<div id="newsletter" class="w3-modal">
+    <div class="w3-modal-content w3-animate-zoom" style="padding:32px" >
+      <div class="w3-container w3-white w3-center">
+        <i onclick="document.getElementById('newsletter').style.display='none'" class="fa fa-remove w3-right w3-button w3-transparent w3-xxlarge"></i>
+        <h2 class="w3-wide">NEWSLETTER</h2>
+        <p>Join our mailing list to receive updates on our furry fourlegged friends</p>
+        <p><input class="w3-input w3-border" type="text" placeholder="Enter e-mail"></p>
+        <button type="button" class="w3-button w3-padding-large w3-red w3-margin-bottom" onclick="document.getElementById('newsletter').style.display='none'">Subscribe</button>
+      </div>
+    </div>
+  </div>
+      </body>
+</html>
