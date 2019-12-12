@@ -1,9 +1,14 @@
-* {
+* html {
   box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
 }
 
 body {
-  font-family: Arial;
+  font-family: 'Tajawal', sans-serif;
   padding: 0px;
   background: #f1f1f100;
 }
@@ -19,6 +24,12 @@ body {
   margin-top: 0px;
   padding-top: 0px;
 
+}
+
+.img-header {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
 }
 
 .header h1 {
@@ -44,32 +55,7 @@ body {
   color: #ff5a07;
   background-color: #0e090900;
 }
-/*from Julianne*/
-.btn {
-  background: #B8DF9E;
-  /* color: var(--light); */
-  padding: 0.6rem 1.3rem;
-  text-decoration: none;
-  border: 0;
-  box-shadow: 0px 1px 5px black;
-}
 
-.boxes {
-    
-  display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-
-.box {
-  background: #066577;
-    margin-top: 50px;
-  /* background: burlywood; */
-  text-align: center;
-  padding: 1.5rem 2rem;
-  box-shadow: 0px 1px 5px black;
-  /* font-size: 28px; */
-  /*end Julianne insert*/
 
 /* Change color on hover */
 .nav a:hover {
@@ -113,6 +99,7 @@ body {
   clear: both;
 }
 
+/
 /* Footer */
 .footer {
   padding: 20px;
@@ -155,7 +142,37 @@ body {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
+/*grid*/
+/*
+.staff {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}*/
+
+
+.btn {
+  background: #B8DF9E;
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border: 0;
+  box-shadow: 0px 1px 5px black;
+}
+
+.boxes {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box {
+  background: #066577;
+  margin-top: 05px;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  box-shadow: 0px 1px 5px black;
+  /*end grid insert*/
+
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+
 @media screen and (max-width: 800px) {
   .leftcolumn, .rightcolumn {   
     width: 100%;
