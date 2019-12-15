@@ -17,6 +17,10 @@ body {
   margin: 0;
 }
 
+/* /////////////NAV///////////////// */
+
+/* /////////////HEADER IMAGE and TRANSPARENCY//////////////// */
+
 .adoptables-color-transparency {
   width: 100%;
   height: 650;
@@ -30,19 +34,54 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  float: center;
 }
 
+.shop-color-transparency {
+  width: 100%;
+  height: 650;
+  background: linear-gradient(
+      to right,
+      rgba(6, 101, 119, 1) 0%,
+      rgba(192, 228, 244, 0.46680679107580536) 65%,
+      rgba(223, 31, 134, 1) 100%
+    ),
+    url("../img/hero_bird.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: center;
+}
+
+.header {
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  /* background-attachment: scroll; */
+  float: center;
+  /* margin-top: 0px;
+  padding-top: 0px; */
+}
+
+/* /////////////ICONS///////////////// */
+.fa-envelope-square {
+  font-size: 25px;
+}
+
+.fa-heart {
+  color: #df1f86;
+}
 /* Header/Blog Title */
-/* .header { */
-  /* background-size: cover;
-  background-repeat: no-repeat; */
-  /* float: center; */
-  /* background-color: #0e090900; */
-  /* margin: 0px;
-  padding: 0px; */
+/* .header {
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: center;
+  background-color: #0e090900;
+  margin: 0px;
+  padding: 0px;
 }
 
-/* .header h1 {
+.header h1 {
   font-size: 50px;
 } */
 
@@ -72,7 +111,7 @@ body {
   color: rgb(55, 26, 173);
 } */
 
-/* Create two unequal columns that floats next to each other */
+/* /////////////////////COLUMNS//////////////////////// */
 /* Left column */
 .leftcolumn {
   float: left;
@@ -86,20 +125,19 @@ body {
   background-color: #c0e4f4;
   padding-left: 20px;
 }
-
-/* Fake image
-.fakeimg {
+/* Fake image */
+/* .fakeimg {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
 } */
 
-/* Add a card effect for articles
-.card {
+/* Add a card effect for articles */
+/* .card {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
-}
+} */
 
 /* Clear floats after the columns */
 /* .row:after {
@@ -114,9 +152,9 @@ body {
   text-align: center;
   background: #ddd;
   margin-top: 20px;
-}
+} */
 
-.fa {
+/* .fa {
   padding: 5px;
   font-size: 15px;
   width: 30px;
@@ -124,8 +162,8 @@ body {
   text-align: center;
   text-decoration: none;
   margin: 3px 6px;
-}
-.fa:hover {
+} */
+/* .fa:hover {
   opacity: 0.7;
 }
 
@@ -149,89 +187,3 @@ body {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 } */
-
-/* //////////ADOPTABLES GRID/////////////////// */
-.adoptables {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto auto;
-  grid-gap: 10px;
-}
-.item-1
-  .item-2
-  .item-3
-  .item-4
-  .item-5
-  .item-6
-  .item-7
-  .item-8
-  .item-9
-  .item-10 {
-  max-width: 100%;
-  height: auto;
-}
-
-.fa-heart {
-  color: #df1f86;
-}
-
-/* ///////////Responsive - Screen is less than 1400px wide ///////////*/
-@media screen and (max-width: 1400px) {
-  .leftcolumn,
-  .rightcolumn {
-    width: 100%;
-    padding: 0;
-  }
-
-  .adoptables {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto;
-    grid-gap: 10px;
-  }
-}
-
-/* ///////////Responsive - Screen is less than 1100px wide ///////////*/
-@media screen and (max-width: 1100px) {
-  .adoptables-color-transparency {
-    width: 100%;
-    height: 300;
-    background: linear-gradient(
-        to right,
-        rgba(6, 101, 119, 1) 0%,
-        rgba(192, 228, 244, 0.46680679107580536) 65%,
-        rgba(223, 31, 134, 1) 100%
-      ),
-      url("../img/hero_person_dog.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .leftcolumn,
-  .rightcolumn {
-    width: 100%;
-    padding: 0;
-  }
-
-  .adoptables {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-    grid-gap: 10px;
-  }
-}
-
-/* ///////////Responsive - Screen is less than 400px wide ///////////*/
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-
-  .adoptables {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-    grid-gap: 10px;
-  }
-}

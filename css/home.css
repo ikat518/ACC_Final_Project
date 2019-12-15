@@ -18,7 +18,6 @@ body {
   background-color: #0e090900;
   margin-top: 0px;
   padding-top: 0px;
-
 }
 
 .header h1 {
@@ -30,7 +29,7 @@ body {
   overflow: hidden;
   background-color: rgba(250, 245, 245, 0);
   text-align: center;
-  float:center;
+  float: center;
   position: absolute;
 }
 
@@ -39,7 +38,7 @@ body {
   float: center;
   display: inline-flex;
   text-align: center;
-  padding: 10px 14px ;
+  padding: 10px 14px;
   text-decoration: none;
   color: #ff5a07;
   background-color: #0e090900;
@@ -53,7 +52,7 @@ body {
 
 /* Create two unequal columns that floats next to each other */
 /* Left column */
-.leftcolumn {   
+.leftcolumn {
   float: left;
   width: 75%;
 }
@@ -67,7 +66,8 @@ body {
 }
 /* ///login form// */
 
-input[type=text], select {
+input[type="text"],
+select {
   width: 100%;
   padding: 12px 20px;
   margin: 8px 0;
@@ -77,7 +77,7 @@ input[type=text], select {
   box-sizing: border-box;
 }
 
-input[type=login] {
+input[type="login"] {
   width: 100%;
   background-color: #ff5a07;
   color: rgb(246, 242, 242);
@@ -89,8 +89,8 @@ input[type=login] {
   text-align: center;
 }
 
-input[type=login]:hover {
-  background-color:rgb(55, 26, 173);;
+input[type="login"]:hover {
+  background-color: rgb(55, 26, 173);
 }
 
 #div1 {
@@ -139,11 +139,11 @@ input[type=login]:hover {
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-facebook {
-  background: #3B5998;
+  background: #3b5998;
   color: white;
 }
 
@@ -165,7 +165,8 @@ input[type=login]:hover {
 
 /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 800px) {
-  .leftcolumn, .rightcolumn {   
+  .leftcolumn,
+  .rightcolumn {
     width: 100%;
     padding: 0;
   }
