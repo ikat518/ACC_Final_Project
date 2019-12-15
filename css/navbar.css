@@ -1,0 +1,74 @@
+
+html {
+  box-sizing: border-box;
+}
+*:before, *:after {
+  box-sizing: inherit;
+}
+
+ul {
+list-style: none;
+}
+
+a { 
+  text-decoration: none;
+  color: #333;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+   align-content: center;
+   margin-left: 240px;
+   margin-right: 60px;
+
+}
+.nav a {
+    display: inline-flex;
+    padding: 60px 30px;
+    text-decoration: none;
+    color: #066577;
+}
+.nav a:hover {
+    color: #4DC5D6;
+}
+/* .home {
+    float: left;
+}
+.about {
+    float: left;
+}
+.shop {
+    float: left;
+}
+.adoptables {
+    float: left;
+}
+.programs {
+    float: left;
+} */
+.nav div {
+    position: relative;
+    float:left;
+}
+
+.donate ul {
+    position: absolute;
+    top: 75px;
+    display: none;
+}
+
+.donate:hover ul{
+    display: block;
+}
+
+.donate ul li {
+    padding: 10px;
+}
+.logo {
+    float: left;
+    margin-top: 30px;
+}
+

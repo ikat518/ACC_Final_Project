@@ -16,7 +16,6 @@ body {
   padding: 0px;
   margin: 0;
 }
-
 .color-transparency {
   width: 100%;
   height: 650;
@@ -26,11 +25,16 @@ body {
       rgba(192, 228, 244, 0.46680679107580536) 65%,
       rgba(223, 31, 134, 1) 100%
     ),
-    url("../img/hero_person_dog.jpg");
+    url("../img/hero_bird.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
+/* .img-header {
+  object-fit: contain;
+  max-width: 100%;
+  height: auto;
+} */
 
 /* Header/Blog Title */
 .header {
@@ -150,31 +154,22 @@ body {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-/* //////////ADOPTABLES GRID/////////////////// */
-.adoptables {
+/* //////////SHOP GRID/////////////////// */
+
+.shop {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto auto;
-  grid-gap: 10px;
 }
-.item-1
-  .item-2
-  .item-3
-  .item-4
-  .item-5
-  .item-6
-  .item-7
-  .item-8
-  .item-9
-  .item-10 {
+
+.item-1 .item-2 .item-3 .item-4 .item-5 .item-6 .item-7 .item-8 .item-9 {
   max-width: 100%;
   height: auto;
 }
 
 .fas {
-  color: #df1f86;
+  color: #066577;
 }
-
 /* Responsive layout - when the screen is less than 1400px wide, make the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 1400px) {
   .leftcolumn,
@@ -183,7 +178,7 @@ body {
     padding: 0;
   }
 
-  .adoptables {
+  .shop {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto;
@@ -202,7 +197,7 @@ body {
         rgba(192, 228, 244, 0.46680679107580536) 65%,
         rgba(223, 31, 134, 1) 100%
       ),
-      url("../img/hero_person_dog.jpg");
+      url("../img/hero_bird.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -213,7 +208,7 @@ body {
     padding: 0;
   }
 
-  .adoptables {
+  .shop {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
@@ -228,7 +223,7 @@ body {
     width: 100%;
   }
 
-  .adoptables {
+  .shop {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;

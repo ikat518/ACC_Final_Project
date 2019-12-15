@@ -44,6 +44,32 @@ body {
   color: #ff5a07;
   background-color: #0e090900;
 }
+/*from Julianne*/
+.btn {
+  background: #B8DF9E;
+  /* color: var(--light); */
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border: 0;
+  box-shadow: 0px 1px 5px black;
+}
+
+.boxes {
+    
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box {
+  background: #066577;
+    margin-top: 50px;
+  /* background: burlywood; */
+  text-align: center;
+  padding: 1.5rem 2rem;
+  box-shadow: 0px 1px 5px black;
+  /* font-size: 28px; */
+  /*end Julianne insert*/
 
 /* Change color on hover */
 .nav a:hover {
