@@ -17,13 +17,39 @@ body {
   margin: 0;
 }
 
-/* /////////////NAV///////////////// */
+h1 {
+  font-size: 50px;
+}
 
-/* /////////////HEADER IMAGE and TRANSPARENCY//////////////// */
+/* //////////////////////////////////////////////////////////////
+/////////////////////////OUR COLORS////////////////////////////
+///////////#066577 #B8DF9E #C0E4F4 #7E9092 #DF1F86//////////////
+/////////////////////////////////////////////////////////////// */
 
-.adoptables-color-transparency {
+/*////////////////////////////////////////////////////////////
+ /////////////HEADER IMAGE and HERO TRANSPARENCY////////////////
+ /////////////////////////////////////////////////////////// */
+.shop-transparency {
   width: 100%;
-  height: 650;
+  height: 650px;
+  background: linear-gradient(
+      to right,
+      rgba(223, 31, 134, 0.710504270067402) 0%,
+      rgba(184, 223, 158, 0.7301121132046569) 60%,
+      rgba(192, 228, 244, 0.5536415249693627) 95%
+    ),
+    url("../img/hero_bird.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: none;
+  margin: 0;
+  padding: 0;
+}
+
+.adoptables-transparency {
+  width: 100%;
+  height: 650px;
   background: linear-gradient(
       to right,
       rgba(6, 101, 119, 1) 0%,
@@ -34,84 +60,62 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  float: center;
 }
 
-.shop-color-transparency {
+.about-transparency {
   width: 100%;
-  height: 650;
+  height: 650px;
   background: linear-gradient(
       to right,
-      rgba(6, 101, 119, 1) 0%,
-      rgba(192, 228, 244, 0.46680679107580536) 65%,
-      rgba(223, 31, 134, 1) 100%
+      rgba(223, 31, 134, 1) 0%,
+      rgba(184, 223, 158, 0.466806791075805361) 60%,
+      rgba(192, 228, 244, 1) 95%
     ),
-    url("../img/hero_bird.jpg");
+    url("../img/hero_kids_dog.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  float: center;
+  float: none;
 }
 
-.header {
-  background-size: cover;
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  /* background-attachment: scroll; */
-  float: center;
-  /* margin-top: 0px;
-  padding-top: 0px; */
-}
-
-/* /////////////ICONS///////////////// */
-.fa-envelope-square {
-  font-size: 25px;
-}
-
-.fa-heart {
-  color: #df1f86;
-}
-/* Header/Blog Title */
-/* .header {
+.programs-transparency {
+  width: 100%;
+  height: 650px;
+  background: linear-gradient(
+      to right,
+      rgba(6, 101, 119, 1) 0%,
+      rgba(223, 31, 134, 0.710504270067402) 0%,
+      rgba(192, 228, 244, 0.5536415249693627) 95%
+    ),
+    url("../img/hero_man_dog.jpg");
+  background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  float: center;
-  background-color: #0e090900;
-  margin: 0px;
-  padding: 0px;
+  float: none;
+  margin: 0;
+  padding: 0;
 }
 
-.header h1 {
-  font-size: 50px;
-} */
+.home-transparency {
+  width: 100%;
+  height: 650px;
+  background: linear-gradient(
+      to right,
+      rgba(6, 101, 119, 1) 0%,
+      rgba(192, 228, 244, 0.5536415249693627) 95%,
+      rgba(223, 31, 134, 0.710504270067402) 0%
+    ),
+    url("../img/hero_man_dog.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: none;
+  margin: 0;
+  padding: 0;
+}
 
-/* Style the top navigation bar */
-/* .nav {
-  overflow: hidden;
-  background-color: rgba(250, 245, 245, 0);
-  text-align: center;
-  float: center;
-  position: absolute;
-} */
-
-/* Style the topnav links */
-/* .nav a {
-  float: center;
-  display: inline-flex;
-  text-align: center;
-  padding: 10px 14px;
-  text-decoration: none;
-  color: #ff5a07;
-  background-color: #0e090900;
-} */
-
-/* Change color on hover */
-/* .nav a:hover {
-  background-color: rgba(221, 221, 221, 0);
-  color: rgb(55, 26, 173);
-} */
-
-/* /////////////////////COLUMNS//////////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////////COLUMNS///////////////////////////////
+////////////////////////////////////////////////////////////// */
 /* Left column */
 .leftcolumn {
   float: left;
@@ -124,458 +128,6 @@ body {
   width: 25%;
   background-color: #c0e4f4;
   padding-left: 20px;
-}
-/* Fake image */
-/* .fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-} */
-
-/* Add a card effect for articles */
-/* .card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-} */
-
-/* Clear floats after the columns */
-/* .row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
-
-/* Footer */
-/* .footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-} */
-
-/* .fa {
-  padding: 5px;
-  font-size: 15px;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 3px 6px;
-} */
-/* .fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-} */
-
-/* ABOUT.CSS CONTENT */
-
-* {
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial;
-  padding: 0px;
-  background: #f1f1f100;
-}
-
-/* Header/Blog Title */
-.header {
-  background-size: cover;
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  float: center;
-  background-color: #0e090900;
-  margin-top: 0px;
-  padding-top: 0px;
-}
-
-.header h1 {
-  font-size: 50px;
-}
-
-/* Style the top navigation bar */
-.nav {
-  overflow: hidden;
-  background-color: rgba(250, 245, 245, 0);
-  text-align: center;
-  float: center;
-  position: absolute;
-}
-
-/* Style the topnav links */
-.nav a {
-  float: center;
-  display: inline-flex;
-  text-align: center;
-  padding: 10px 14px;
-  text-decoration: none;
-  color: #ff5a07;
-  background-color: #0e090900;
-}
-/*from Julianne*/
-.btn {
-  background: #b8df9e;
-  /* color: var(--light); */
-  padding: 0.6rem 1.3rem;
-  text-decoration: none;
-  border: 0;
-  box-shadow: 0px 1px 5px black;
-}
-
-.boxes {
-  display: grid;
-  grid-gap: 5px;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-}
-
-.box {
-  background: #066577;
-  margin-top: 50px;
-  /* background: burlywood; */
-  text-align: center;
-  padding: 1.5rem 2rem;
-  box-shadow: 0px 1px 5px black;
-  /* font-size: 28px; */
-  /*end Julianne insert*/
-
-  /* Change color on hover */
-  .nav a:hover {
-    background-color: rgba(221, 221, 221, 0);
-    color: rgb(55, 26, 173);
-  }
-
-  /* Create two unequal columns that floats next to each other */
-  /* Left column */
-  .leftcolumn {
-    float: left;
-    width: 75%;
-  }
-
-  /* Right column */
-  .rightcolumn {
-    float: left;
-    width: 25%;
-    background-color: #f1f1f1;
-    padding-left: 20px;
-  }
-
-  /* Fake image */
-  .fakeimg {
-    background-color: #aaa;
-    width: 100%;
-    padding: 20px;
-  }
-
-  /* Add a card effect for articles */
-  .card {
-    background-color: white;
-    padding: 20px;
-    margin-top: 20px;
-  }
-
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-
-  /* Footer */
-  .footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-  }
-
-  .fa {
-    padding: 5px;
-    font-size: 15px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 3px 6px;
-  }
-  .fa:hover {
-    opacity: 0.7;
-  }
-
-  .fa-facebook {
-    background: #3b5998;
-    color: white;
-  }
-
-  .fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-
-  .fa-snapchat-ghost {
-    background: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  }
-
-  /* ADOPTABLES.CSS */
-
-  .adoptables-color-transparency {
-    width: 100%;
-    height: 650;
-    background: linear-gradient(
-        to right,
-        rgba(6, 101, 119, 1) 0%,
-        rgba(192, 228, 244, 0.46680679107580536) 65%,
-        rgba(223, 31, 134, 1) 100%
-      ),
-      url("../img/hero_person_dog.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  /* Header/Blog Title */
-  /* .header { */
-  /* background-size: cover;
-  background-repeat: no-repeat; */
-  /* float: center; */
-  /* background-color: #0e090900; */
-  /* margin: 0px;
-  padding: 0px; */
-}
-
-/* .header h1 {
-  font-size: 50px;
-} */
-
-/* Style the top navigation bar */
-/* .nav {
-  overflow: hidden;
-  background-color: rgba(250, 245, 245, 0);
-  text-align: center;
-  float: center;
-  position: absolute;
-} */
-
-/* Style the topnav links */
-/* .nav a {
-  float: center;
-  display: inline-flex;
-  text-align: center;
-  padding: 10px 14px;
-  text-decoration: none;
-  color: #ff5a07;
-  background-color: #0e090900;
-} */
-
-/* Change color on hover */
-/* .nav a:hover {
-  background-color: rgba(221, 221, 221, 0);
-  color: rgb(55, 26, 173);
-} */
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #c0e4f4;
-  padding-left: 20px;
-}
-
-/* Fake image
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-} */
-
-/* Add a card effect for articles
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-/* .row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
-
-/* Footer */
-/* .footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
-
-.fa {
-  padding: 5px;
-  font-size: 15px;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 3px 6px;
-}
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-} */
-
-/* //////////ADOPTABLES GRID/////////////////// */
-.adoptables {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto auto;
-  grid-gap: 10px;
-}
-.item-1
-  .item-2
-  .item-3
-  .item-4
-  .item-5
-  .item-6
-  .item-7
-  .item-8
-  .item-9
-  .item-10 {
-  max-width: 100%;
-  height: auto;
-}
-
-.fa-heart {
-  color: #df1f86;
-}
-
-/* ////////////////////////////CONTACT.CSS////////////////////// */
-
-/* Header/Blog Title */
-.header {
-  background-size: cover;
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  float: center;
-  background-color: #0e090900;
-  margin-top: 0px;
-  padding-top: 0px;
-}
-
-.header h1 {
-  font-size: 50px;
-}
-
-/* Style the top navigation bar */
-.nav {
-  overflow: hidden;
-  background-color: rgba(250, 245, 245, 0);
-  text-align: center;
-  float: center;
-  position: absolute;
-}
-
-/* Style the topnav links */
-.nav a {
-  float: center;
-  display: inline-flex;
-  text-align: center;
-  padding: 10px 14px;
-  text-decoration: none;
-  color: #ff5a07;
-  background-color: #0e090900;
-}
-
-/* Change color on hover */
-.nav a:hover {
-  background-color: rgba(221, 221, 221, 0);
-  color: rgb(55, 26, 173);
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
 }
 
 /* Clear floats after the columns */
@@ -585,109 +137,103 @@ body {
   clear: both;
 }
 
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
+/* //////////////////////////////////////////////////////////
+//////////////////////KAT ||  NAV/////////////////////////
+//////////////////////////////////////////////////////////// */
+
+ul {
+  list-style: none;
 }
 
-.fa {
-  padding: 5px;
-  font-size: 15px;
-  width: 30px;
-  height: 30px;
-  text-align: center;
+a {
   text-decoration: none;
-  margin: 3px 6px;
-}
-.fa:hover {
-  opacity: 0.7;
+  color: #333;
 }
 
-.fa-facebook {
-  background: #3b5998;
-  color: white;
+.nav {
+  align-content: center;
+  margin-left: 240px;
+  margin-right: 60px;
+}
+.nav a {
+  display: inline-flex;
+  padding: 60px 30px;
+  text-decoration: none;
+  color: #066577;
+}
+.nav a:hover {
+  color: #4dc5d6;
+}
+/* .home {
+      float: left;
+  }
+  .about {
+      float: left;
+  }
+  .shop {
+      float: left;
+  }
+  .adoptables {
+      float: left;
+  }
+  .programs {
+      float: left;
+  } */
+.nav div {
+  position: relative;
+  float: left;
 }
 
-.fa-youtube {
-  background: #bb0000;
-  color: white;
+.donate ul {
+  position: absolute;
+  top: 75px;
+  display: none;
 }
 
-.fa-instagram {
-  background: #125688;
-  color: white;
+.donate:hover ul {
+  display: block;
 }
 
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+.donate ul li {
+  padding: 10px;
+}
+.logo {
+  float: left;
+  margin-top: 30px;
 }
 
-/* ///////////////////HOME/////////////////////// */
-
-/* Header/Blog Title */
-.header {
-  background-size: cover;
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  float: center;
-  background-color: #0e090900;
-  margin-top: 0px;
-  padding-top: 0px;
+/* ///////////////////////////////////////////////////////////
+//////////////////////////ICONS//////////////////////////////////////////////////////////////////////////////////////////////// */
+.fa-envelope-square {
+  font-size: 25px;
 }
+
+.fa-heart {
+  color: #df1f86;
+}
+
+.fa-shopping-cart {
+  color: #066577;
+}
+
+/*//////////////////////////////////////////////////////////////
+///////////////////JULIANNE ||  ABOUT and CONTACT ///////////////////////////////////////////////////////////////////////////// */
+
+/*from Julianne*/
+/* .btn {
+  background: #b8df9e;
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border: 0;
+  box-shadow: 0px 1px 5px black;
+} */
+
+/* /////////////////////////////////////////////////////////////////////////////////////////LUKEE || HOME////////////////////////////////////////////////////////////////////////////////////////// */
+
 .logo {
   position: absolute;
 }
-/* //Gride collum/// */
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  grid-template-rows: 80px 200px;
-  grid-gap: 10px;
-  background-color: rgb(240, 243, 245);
-  padding: 10px;
-}
 
-.grid-container > div {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px 0;
-  font-size: 30px;
-}
-/* ///Grid item home page // */
-.grid-container {
-  display: grid;
-  grid-gap: 10px;
-  background-color: rgb(240, 243, 245);
-  padding: 10px;
-}
-
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  text-align: center;
-  padding: 20px;
-  font-size: 30px;
-}
-
-.item1 {
-  grid-column: 1 / span 2;
-  grid-row: 1;
-}
-
-.item2 {
-  grid-column: 3;
-  grid-row: 1 / span 2;
-}
-
-.item5 {
-  grid-column: 1 / span 3;
-  grid-row: 3;
-}
 /* ///img gallery home page// */
 div.gallery {
   margin: 5px;
@@ -709,53 +255,6 @@ div.desc {
   padding: 15px;
   text-align: center;
 }
-
-.header h1 {
-  font-size: 50px;
-}
-
-/* Style the top navigation bar */
-.nav {
-  overflow: hidden;
-  background-color: rgba(250, 245, 245, 0);
-  text-align: left;
-  float: left;
-  position: absolute;
-  margin-left: 15px;
-}
-
-/* Style the topnav links */
-.nav a {
-  float: center;
-  display: inline-flex;
-  text-align: center;
-  padding: 10px 14px;
-  text-decoration: none;
-  color: #ff5a07;
-  background-color: #0e090900;
-}
-
-/* Change color on hover */
-.nav a:hover {
-  background-color: rgba(221, 221, 221, 0);
-  color: rgb(55, 26, 173);
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-/* ///login form// */
 
 input[type="text"],
 select {
@@ -804,13 +303,7 @@ input[type="login"]:hover {
   margin-top: 20px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
+/* ///////////////////////////////////////////////////////////////////////////////////////LUKEE || FOOTER/////////////////////////////////////////////////////////////////////////////////////////// */
 /* Footer */
 .footer {
   padding: 100px;
@@ -869,116 +362,7 @@ input[type="login"]:hover {
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
-/* //////////////////NAV BAR CSS/////////////////////// */
-
-ul {
-  list-style: none;
-}
-
-a {
-  text-decoration: none;
-  color: #333;
-}
-
-body {
-  margin: 0;
-}
-
-.nav {
-  align-content: center;
-  margin-left: 240px;
-  margin-right: 60px;
-}
-.nav a {
-  display: inline-flex;
-  padding: 60px 30px;
-  text-decoration: none;
-  color: #066577;
-}
-.nav a:hover {
-  color: #4dc5d6;
-}
-/* .home {
-      float: left;
-  }
-  .about {
-      float: left;
-  }
-  .shop {
-      float: left;
-  }
-  .adoptables {
-      float: left;
-  }
-  .programs {
-      float: left;
-  } */
-.nav div {
-  position: relative;
-  float: left;
-}
-
-.donate ul {
-  position: absolute;
-  top: 75px;
-  display: none;
-}
-
-.donate:hover ul {
-  display: block;
-}
-
-.donate ul li {
-  padding: 10px;
-}
-.logo {
-  float: left;
-  margin-top: 30px;
-}
-
-/* //////////////////////////PAY CSS////////////////////////// */
-
-/* Header/Blog Title */
-.header {
-  background-size: contain;
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  float: center;
-  background-color: #0e090900;
-  margin-top: 0px;
-  padding-top: 0px;
-}
-
-.header h1 {
-  font-size: 50px;
-}
-
-/* Style the top navigation bar */
-.nav {
-  overflow: hidden;
-  background-color: rgba(250, 245, 245, 0);
-  text-align: center;
-  float: center;
-  position: absolute;
-}
-
-/* Style the topnav links */
-.nav a {
-  float: center;
-  display: inline-flex;
-  text-align: center;
-  padding: 10px 14px;
-  text-decoration: none;
-  color: #ff5a07;
-  background-color: #0e090900;
-}
-
-/* Change color on hover */
-.nav a:hover {
-  background-color: rgba(221, 221, 221, 0);
-  color: rgb(55, 26, 173);
-}
+/* //////////////////////////////////////////////////////////////////////////////////////LUKEE || PAY CSS/////////////////////////////////////////////////////////////////////////////////////////// */
 
 .row {
   display: -ms-flexbox; /* IE10 */
@@ -1058,307 +442,4 @@ span.price {
   color: grey;
 }
 
-/* Footer */
-.footer {
-  padding: 10px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 10px;
-}
-
-.fa {
-  padding: 5px;
-  font-size: 3px;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 3px 6px;
-}
-
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-/* ////////////////////////PROGRAMS CSS/////////////////////// */
-
-/* Header/Blog Title */
-.header {
-  background-size: cover;
-  background-attachment: scroll;
-  background-repeat: no-repeat;
-  background-attachment: scroll;
-  float: center;
-  /* background-color: #0e090900; */
-  margin-top: 0px;
-  padding-top: 0px;
-}
-
-.header h1 {
-  font-size: 50px;
-}
-
-/* Style the top navigation bar */
-.nav {
-  overflow: hidden;
-  /* background-color: rgba(250, 245, 245, 0); */
-  text-align: center;
-  float: center;
-  position: absolute;
-}
-
-/* Style the topnav links */
-.nav a {
-  float: center;
-  display: inline-flex;
-  text-align: center;
-  padding: 10px 14px;
-  text-decoration: none;
-  color: #ff5a07;
-  /* background-color: #0e090900; */
-}
-
-/* Change color on hover */
-.nav a:hover {
-  /* background-color: rgba(221, 221, 221, 0); */
-  color: rgb(55, 26, 173);
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
-
-.fa {
-  padding: 5px;
-  font-size: 15px;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 3px 6px;
-}
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
-/* //////////////////////////////SHOP CSS//////////////////////// */
-
-.shop-color-transparency {
-  width: 100%;
-  height: 650;
-  background: linear-gradient(
-      to right,
-      rgba(6, 101, 119, 1) 0%,
-      rgba(192, 228, 244, 0.46680679107580536) 65%,
-      rgba(223, 31, 134, 1) 100%
-    ),
-    url("../img/hero_bird.jpg");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-/* .img-header {
-    object-fit: contain;
-    max-width: 100%;
-    height: auto;
-  } */
-
-/* Header/Blog Title */
-.header {
-  background-size: cover;
-  background-repeat: no-repeat;
-  float: center;
-  background-color: #0e090900;
-  margin: 0px;
-  padding: 0px;
-}
-
-.header h1 {
-  font-size: 50px;
-}
-
-/* Style the top navigation bar */
-.nav {
-  overflow: hidden;
-  background-color: rgba(250, 245, 245, 0);
-  text-align: center;
-  float: center;
-  position: absolute;
-}
-
-/* Style the topnav links */
-.nav a {
-  float: center;
-  display: inline-flex;
-  text-align: center;
-  padding: 10px 14px;
-  text-decoration: none;
-  color: #ff5a07;
-  background-color: #0e090900;
-}
-
-/* Change color on hover */
-.nav a:hover {
-  background-color: rgba(221, 221, 221, 0);
-  color: rgb(55, 26, 173);
-}
-
-/* Create two unequal columns that floats next to each other */
-/* Left column */
-.leftcolumn {
-  float: left;
-  width: 75%;
-}
-
-/* Right column */
-.rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #f1f1f1;
-  padding-left: 20px;
-}
-
-/* Fake image */
-.fakeimg {
-  background-color: #aaa;
-  width: 100%;
-  padding: 20px;
-}
-
-/* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
-/* Footer */
-.footer {
-  padding: 20px;
-  text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-}
-
-.fa {
-  padding: 5px;
-  font-size: 15px;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 3px 6px;
-}
-.fa:hover {
-  opacity: 0.7;
-}
-
-.fa-facebook {
-  background: #7e9092;
-  color: white;
-}
-
-.fa-youtube {
-  background: #7e9092;
-  color: white;
-}
-
-.fa-instagram {
-  background: #7e9092;
-  color: white;
-}
-
-.fa-snapchat-ghost {
-  background: #7e9092;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
+/* /////////////////////////////////////////////////////////////////////////////////////KAT || PROGRAMS CSS//////////////////////////////////////////////////////////////////////////////////////// */
