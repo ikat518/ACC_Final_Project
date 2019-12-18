@@ -1,37 +1,11 @@
 
-html {
-  box-sizing: border-box;
-}
-*:before, *:after {
-  box-sizing: inherit;
-}
-
-ul {
-list-style: none;
-}
-
-a { 
-  text-decoration: none;
-  color: #333;
-}
-
-body {
-  margin: 0;
-}
-/* if the screen is less than 1160px wide */
-@media screen and (max-width: 1160px)
-{
-.mobile-nav  {
-    display: inline;
-    color: #066577;
-
-}
-.mobile-nav li {
-     padding: 60px 30px;
-     text-decoration: none;
+  
+.mobile-nav li a {
      color: #066577;
- }
-.mobile-nav a:hover {
+float: right;
+    }
+
+.mobile-nav li a:hover {
      color: #4DC5D6;
 }
 .donate ul {
@@ -45,6 +19,9 @@ body {
 
 .donate ul li {
     padding: 10px;
+}
+.logo {
+ position: relative;
 }
 
 }
