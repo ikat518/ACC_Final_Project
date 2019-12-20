@@ -215,8 +215,80 @@ a {
   color: #df1f86;
 }
 
+.large-heart {
+  font-size: 50px;
+  padding: 30px;
+}
+
 .fa-shopping-cart {
   color: #066577;
+}
+
+/* ///////////////////////////////////////////////////////////
+//////////////////////////MARY || ADOPTABLES//////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.adopt-leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.adopt-rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #c0e4f4;
+  padding-left: 20px;
+}
+
+.shop-leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+.shop-rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #c0e4f4;
+  padding-left: 20px;
+}
+
+.adoptables-wrapper {
+  width: 500px;
+  position: relative;
+}
+
+.adopt-overlay {
+  position: absolute;
+  opacity: 0;
+  transition: all 300ms ease;
+  background: rgba(224, 31, 134, 0.3);
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  border-radius: 4px;
+}
+.adopt-img {
+  display: block;
+}
+
+.adopt-1:hover .adopt-overlay {
+  opacity: 0.5;
+}
+
+.adopt-2:hover .adopt-overlay {
+  opacity: 0.5;
+}
+
+.adoptables-card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.shop-card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
 }
 
 /*//////////////////////////////////////////////////////////////

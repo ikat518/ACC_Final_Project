@@ -48,7 +48,26 @@ body {
     padding: 0;
   }
 
-  .adoptables .shop {
+  .shop-leftcolumn,
+  .shop-rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+
+  .adopt-leftcolumn,
+  .adopt-rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+
+  .adoptables {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+  }
+
+  .shop {
     display: grid;
     grid-template-columns: auto auto;
     grid-template-rows: auto auto auto auto;
@@ -56,8 +75,8 @@ body {
   }
 }
 
-/* ///////////Responsive - Screen is less than 1100px wide ///////////*/
-@media screen and (max-width: 1100px) {
+/* ///////////Responsive - Screen is less than 1000px wide ///////////*/
+@media screen and (max-width: 1000px) {
   .adoptables-transparency {
     width: 100%;
     height: 300px;
@@ -141,13 +160,32 @@ body {
     margin: 0;
     padding: 0;
   }
+
   .leftcolumn,
   .rightcolumn {
     width: 100%;
     padding: 0;
   }
 
-  .adoptables .shop {
+  .shop-leftcolumn,
+  .shop-rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+
+  .adopt-leftcolumn,
+  .adopt-rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+
+  .adoptables {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+  }
+  .shop {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
@@ -162,6 +200,31 @@ body {
     width: 100%;
     padding: 0;
   }
+
+  .shop-leftcolumn,
+  .shop-rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+
+  .adopt-leftcolumn,
+  .adopt-rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+
+  .adoptables {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+  }
+  .shop {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+  }
 }
 
 /* ///////////Responsive - Screen is less than 400px wide ///////////*/
@@ -171,7 +234,13 @@ body {
     width: 100%;
   }
 
-  .adoptables .shop {
+  .adoptables {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+  }
+  .shop {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
