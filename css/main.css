@@ -133,60 +133,18 @@ body {
 } */
 
 /* Add a card effect for articles */
-/* .card {
+.card {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
-} */
-
-/* Clear floats after the columns */
-/* .row:after {
-  content: "";
-  display: table;
-  clear: both;
-} */
-
-/* Footer */
-/* .footer {
+}
+.card1{
+  background-color: white;
   padding: 20px;
+  height: 1350px;
   text-align: center;
-  background: #ddd;
-  margin-top: 20px;
-} */
-
-/* .fa {
-  padding: 5px;
-  font-size: 15px;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 3px 6px;
-} */
-/* .fa:hover {
-  opacity: 0.7;
 }
 
-.fa-facebook {
-  background: #3b5998;
-  color: white;
-}
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-} */
 
 /* ABOUT.CSS CONTENT */
 
@@ -254,7 +212,7 @@ body {
 .box {
   background: #066577;
   margin-top: 50px;
-  /* background: burlywood; */
+  background: burlywood;
   text-align: center;
   padding: 1.5rem 2rem;
   box-shadow: 0px 1px 5px black;
@@ -303,48 +261,7 @@ body {
     clear: both;
   }
 
-  /* Footer */
-  .footer {
-    padding: 20px;
-    text-align: center;
-    background: #ddd;
-    margin-top: 20px;
-  }
-
-  .fa {
-    padding: 5px;
-    font-size: 15px;
-    width: 30px;
-    height: 30px;
-    text-align: center;
-    text-decoration: none;
-    margin: 3px 6px;
-  }
-  .fa:hover {
-    opacity: 0.7;
-  }
-
-  .fa-facebook {
-    background: #3b5998;
-    color: white;
-  }
-
-  .fa-youtube {
-    background: #bb0000;
-    color: white;
-  }
-
-  .fa-instagram {
-    background: #125688;
-    color: white;
-  }
-
-  .fa-snapchat-ghost {
-    background: #fffc00;
-    color: white;
-    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-  }
-
+ 
   /* ADOPTABLES.CSS */
 
   .adoptables-color-transparency {
@@ -804,26 +721,13 @@ input[type="login"]:hover {
   margin-top: 20px;
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
-}
 
-/* Footer */
-.footer {
-  padding: 100px;
-  text-align: left;
-  background: #ddd;
-  margin-top: 10px;
-}
+
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
   width: 25%;
   padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
   color: rgb(245, 243, 238);
 }
 
@@ -833,42 +737,22 @@ input[type="login"]:hover {
   display: table;
   clear: both;
 }
-
-.fa {
-  padding: 5px;
-  font-size: 3px;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  text-decoration: none;
-  margin: 3px 6px;
+.row2{
+  padding: 10px;
+  background-color: black;
+  line-height: 25px;
+  
 }
-
-.fa:hover {
-  opacity: 0.7;
+.social{
+  word-spacing: 10px;
+  float: left;
+  width: 25%;
+  color: rgb(245, 243, 238);
+  line-height: 45px;
 }
-
-.fa-facebook {
-  background: #3b5998;
-  color: white;
+.hover:hover{
+color: blue;
 }
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
 /* //////////////////NAV BAR CSS/////////////////////// */
 
 ul {
