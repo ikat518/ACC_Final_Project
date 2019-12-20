@@ -1,30 +1,93 @@
+/* /////////////////////////////////////////////////////////////////////////////////////////////LUKEE || HOME GRID////////////////////////////////////////////////////////////////////////////////////// */
+/* //Grid column/// */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 200px;
+  grid-gap: 10px;
+  background-color: rgb(240, 243, 245);
+  padding: 10px;
+}
 
-/* /////////////ADOPTABLES and SHOP GRID////////////// */
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+/* ///Grid item home page // */
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  background-color: rgb(240, 243, 245);
+  padding: 10px;
+}
 
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
 
-.adoptables .shop {
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.item5 {
+  grid-column: 1 / span 3;
+  grid-row: 3;
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////MARY || ADOPTABLES and SHOP GRID//////////////////////////////////////////////////////////////////////////////// */
+
+.adoptables {
   display: grid;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto auto auto;
   grid-gap: 10px;
 }
-.item-1
-  .item-2
-  .item-3
-  .item-4
-  .item-5
-  .item-6
-  .item-7
-  .item-8
-  .item-9
-  .item-10 {
+.adopt-1
+  .adopt-2
+  .adopt-3
+  .adopt-4
+  .adopt-5
+  .adopt-6
+  .adopt-7
+  .adopt-8
+  .adopt-9
+  .adopt-10 {
   max-width: 100%;
   height: auto;
 }
 
+.shop {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 10px;
+}
+.shop-1
+  .shop-2
+  .shop-3
+  .shop-4
+  .shop-5
+  .shop-6
+  .shop-7
+  .shop-8
+  .shop-9
+  .shop-10 {
+  max-width: 100%;
+  height: auto;
+}
 
-/* /////////////ABOUT and CONTACT GRID////////////// */
-
+/* //////////////////////////////////////////////////////////////////////////////////JULIANNE || ABOUT and CONTACT GRID/////////////////////////////////////////////////////////////////////////////// */
 
 .staff {
   display: grid;
@@ -32,11 +95,7 @@
   grid-template-rows: auto auto auto auto;
   grid-gap: 10px;
 }
-.staff-1
-.staff-2
-.staff-3
-.staff-4 
-.staff-5
-.staff-6{
+.staff-1 .staff-2 .staff-3 .staff-4 .staff-5 .staff-6 {
   max-width: 100%;
   height: auto;
+}

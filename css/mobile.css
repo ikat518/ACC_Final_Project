@@ -1,80 +1,4 @@
-/* ///////////Responsive - Screen is less than 1400px wide ///////////*/
-@media screen and (max-width: 1400px) {
-  .leftcolumn,
-  .rightcolumn {
-    width: 100%;
-    padding: 0;
-  }
-
-  .adoptables .shop {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto;
-    grid-gap: 10px;
-  }
-}
-
-/* ///////////Responsive - Screen is less than 1100px wide ///////////*/
-@media screen and (max-width: 1100px) {
-  .adoptables-color-transparency {
-    width: 100%;
-    height: 300;
-    background: linear-gradient(
-        to right,
-        rgba(6, 101, 119, 1) 0%,
-        rgba(192, 228, 244, 0.46680679107580536) 65%,
-        rgba(223, 31, 134, 1) 100%
-      ),
-      url("../img/hero_person_dog.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-
-  .shop-color-transparency {
-    width: 100%;
-    height: 300;
-    background: linear-gradient(
-        to right,
-        rgba(6, 101, 119, 1) 0%,
-        rgba(192, 228, 244, 0.46680679107580536) 65%,
-        rgba(223, 31, 134, 1) 100%
-      ),
-      url("../img/hero_person_dog.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .leftcolumn,
-  .rightcolumn {
-    width: 100%;
-    padding: 0;
-  }
-
-  .adoptables .shop {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-    grid-gap: 10px;
-  }
-}
-
-/* ///////////Responsive - Screen is less than 400px wide ///////////*/
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-
-  .adoptables .shop {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-    grid-gap: 10px;
-  }
-}
-
-/* //////////////////MOBILE NAV CSS//////////////////// */
+/* ///////////////////////////////////////////////////////////////////////////////////KAT || MOBILE NAV CSS//////////////////////////////////////////////////////////////////////////////////////// */
 
 ul {
   list-style: none;
@@ -116,9 +40,122 @@ body {
   }
 }
 
-/* /////////////////////////PROGRAMS MOBILE///////////////////// */
+/* ////////////Responsive - Screen is less than 1400px wide ///////////*/
+@media screen and (max-width: 1400px) {
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
 
-/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+  .adoptables .shop {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+  }
+}
+
+/* ///////////Responsive - Screen is less than 1100px wide ///////////*/
+@media screen and (max-width: 1100px) {
+  .adoptables-transparency {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(
+        to right,
+        rgba(6, 101, 119, 1) 0%,
+        rgba(192, 228, 244, 0.46680679107580536) 65%,
+        rgba(223, 31, 134, 1) 100%
+      ),
+      url("../img/hero_person_dog.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: none;
+  }
+
+  .shop-transparency {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(
+        to right,
+        rgba(223, 31, 134, 0.710504270067402) 0%,
+        rgba(184, 223, 158, 0.7301121132046569) 60%,
+        rgba(192, 228, 244, 0.5536415249693627) 95%
+      ),
+      url("../img/hero_bird.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: none;
+  }
+
+  .about-transparency {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(
+        to right,
+        rgba(223, 31, 134, 1) 0%,
+        rgba(184, 223, 158, 0.46680679107580536) 60%,
+        rgba(192, 228, 244, 1) 95%
+      ),
+      url("../img/hero_kids_dog.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: none;
+  }
+
+  .programs-transparency {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(
+        to right,
+        rgba(6, 101, 119, 1) 0%,
+        rgba(223, 31, 134, 0.710504270067402) 0%,
+        rgba(192, 228, 244, 0.5536415249693627) 95%
+      ),
+      url("../img/hero_man_dog.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .home-transparency {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(
+        to right,
+        rgba(6, 101, 119, 1) 0%,
+        rgba(192, 228, 244, 0.5536415249693627) 95%,
+        rgba(223, 31, 134, 0.710504270067402) 0%
+      ),
+      url("../img/hero_man_dog.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+  .leftcolumn,
+  .rightcolumn {
+    width: 100%;
+    padding: 0;
+  }
+
+  .adoptables .shop {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto auto;
+    grid-gap: 10px;
+  }
+}
+
+/* ///////////Responsive - Screen is less than 800px wide ///////////*/
 @media screen and (max-width: 800px) {
   .leftcolumn,
   .rightcolumn {
@@ -127,86 +164,14 @@ body {
   }
 }
 
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
-@media screen and (max-width: 400px) {
-  .topnav a {
-    float: none;
-    width: 100%;
-  }
-}
-
-/* ////////////////////////////SHOP CSS MOBILE/////////////////// */
-
-/* //////////SHOP GRID/////////////////// */
-
-.shop {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: auto auto auto auto;
-}
-
-.item-1 .item-2 .item-3 .item-4 .item-5 .item-6 .item-7 .item-8 .item-9 {
-  max-width: 100%;
-  height: auto;
-}
-
-.fa-shopping-cart {
-  color: #066577;
-}
-/* Responsive layout - when the screen is less than 1400px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1400px) {
-  .leftcolumn,
-  .rightcolumn {
-    width: 100%;
-    padding: 0;
-  }
-
-  .shop {
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: auto auto auto auto;
-    grid-gap: 10px;
-  }
-}
-
-/* Responsive layout - when the screen is less than 1100px wide, make the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 1100px) {
-  .shop-color-transparency {
-    width: 100%;
-    height: 300;
-    background: linear-gradient(
-        to right,
-        rgba(6, 101, 119, 1) 0%,
-        rgba(192, 228, 244, 0.46680679107580536) 65%,
-        rgba(223, 31, 134, 1) 100%
-      ),
-      url("../img/hero_bird.jpg");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-  }
-  .leftcolumn,
-  .rightcolumn {
-    width: 100%;
-    padding: 0;
-  }
-
-  .shop {
-    display: grid;
-    grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
-    grid-gap: 10px;
-  }
-}
-
-/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+/* ///////////Responsive - Screen is less than 400px wide ///////////*/
 @media screen and (max-width: 400px) {
   .topnav a {
     float: none;
     width: 100%;
   }
 
-  .shop {
+  .adoptables .shop {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: auto auto auto auto;
