@@ -377,6 +377,15 @@ input[type="login"]:hover {
   padding: 20px;
   margin-top: 20px;
 }
+<<<<<<< HEAD
+.card1{
+  background-color: white;
+  padding: 20px;
+  height: 1350px;
+  text-align: center;
+}
+
+=======
 
 /* ///////////////////////////////////////////////////////////////////////////////////////LUKEE || FOOTER/////////////////////////////////////////////////////////////////////////////////////////// */
 /* Footer */
@@ -436,6 +445,7 @@ input[type="login"]:hover {
   color: white;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+>>>>>>> 9ca0a99057189b3092be2b1934e297402d070d29
 
 /* //////////////////////////////////////////////////////////////////////////////////////LUKEE || PAY CSS/////////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -452,6 +462,728 @@ input[type="login"]:hover {
   flex: 50%;
 }
 
+<<<<<<< HEAD
+/* Header/Blog Title */
+.header {
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  float: center;
+  background-color: #0e090900;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.nav {
+  overflow: hidden;
+  background-color: rgba(250, 245, 245, 0);
+  text-align: center;
+  float: center;
+  position: absolute;
+}
+
+/* Style the topnav links */
+.nav a {
+  float: center;
+  display: inline-flex;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  color: #ff5a07;
+  background-color: #0e090900;
+}
+/*from Julianne*/
+.btn {
+  background: #b8df9e;
+  /* color: var(--light); */
+  padding: 0.6rem 1.3rem;
+  text-decoration: none;
+  border: 0;
+  box-shadow: 0px 1px 5px black;
+}
+
+.boxes {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.box {
+  background: #066577;
+  margin-top: 50px;
+  background: burlywood;
+  text-align: center;
+  padding: 1.5rem 2rem;
+  box-shadow: 0px 1px 5px black;
+  /* font-size: 28px; */
+  /*end Julianne insert*/
+
+  /* Change color on hover */
+  .nav a:hover {
+    background-color: rgba(221, 221, 221, 0);
+    color: rgb(55, 26, 173);
+  }
+
+  /* Create two unequal columns that floats next to each other */
+  /* Left column */
+  .leftcolumn {
+    float: left;
+    width: 75%;
+  }
+
+  /* Right column */
+  .rightcolumn {
+    float: left;
+    width: 25%;
+    background-color: #f1f1f1;
+    padding-left: 20px;
+  }
+
+  /* Fake image */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+
+  /* Add a card effect for articles */
+  .card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+ 
+  /* ADOPTABLES.CSS */
+
+  .adoptables-color-transparency {
+    width: 100%;
+    height: 650;
+    background: linear-gradient(
+        to right,
+        rgba(6, 101, 119, 1) 0%,
+        rgba(192, 228, 244, 0.46680679107580536) 65%,
+        rgba(223, 31, 134, 1) 100%
+      ),
+      url("../img/hero_person_dog.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  /* Header/Blog Title */
+  /* .header { */
+  /* background-size: cover;
+  background-repeat: no-repeat; */
+  /* float: center; */
+  /* background-color: #0e090900; */
+  /* margin: 0px;
+  padding: 0px; */
+}
+
+/* .header h1 {
+  font-size: 50px;
+} */
+
+/* Style the top navigation bar */
+/* .nav {
+  overflow: hidden;
+  background-color: rgba(250, 245, 245, 0);
+  text-align: center;
+  float: center;
+  position: absolute;
+} */
+
+/* Style the topnav links */
+/* .nav a {
+  float: center;
+  display: inline-flex;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  color: #ff5a07;
+  background-color: #0e090900;
+} */
+
+/* Change color on hover */
+/* .nav a:hover {
+  background-color: rgba(221, 221, 221, 0);
+  color: rgb(55, 26, 173);
+} */
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #c0e4f4;
+  padding-left: 20px;
+}
+
+/* Fake image
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+} */
+
+/* Add a card effect for articles
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+} */
+
+/* Footer */
+/* .footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 6px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+} */
+
+/* //////////ADOPTABLES GRID/////////////////// */
+.adoptables {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto auto auto;
+  grid-gap: 10px;
+}
+.item-1
+  .item-2
+  .item-3
+  .item-4
+  .item-5
+  .item-6
+  .item-7
+  .item-8
+  .item-9
+  .item-10 {
+  max-width: 100%;
+  height: auto;
+}
+
+.fa-heart {
+  color: #df1f86;
+}
+
+/* ////////////////////////////CONTACT.CSS////////////////////// */
+
+/* Header/Blog Title */
+.header {
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  float: center;
+  background-color: #0e090900;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.nav {
+  overflow: hidden;
+  background-color: rgba(250, 245, 245, 0);
+  text-align: center;
+  float: center;
+  position: absolute;
+}
+
+/* Style the topnav links */
+.nav a {
+  float: center;
+  display: inline-flex;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  color: #ff5a07;
+  background-color: #0e090900;
+}
+
+/* Change color on hover */
+.nav a:hover {
+  background-color: rgba(221, 221, 221, 0);
+  color: rgb(55, 26, 173);
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Footer */
+.footer {
+  padding: 20px;
+  text-align: center;
+  background: #ddd;
+  margin-top: 20px;
+}
+
+.fa {
+  padding: 5px;
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 3px 6px;
+}
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3b5998;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+/* ///////////////////HOME/////////////////////// */
+
+/* Header/Blog Title */
+.header {
+  background-size: cover;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  float: center;
+  background-color: #0e090900;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+.logo {
+  position: absolute;
+}
+/* //Gride collum/// */
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-template-rows: 80px 200px;
+  grid-gap: 10px;
+  background-color: rgb(240, 243, 245);
+  padding: 10px;
+}
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px 0;
+  font-size: 30px;
+}
+/* ///Grid item home page // */
+.grid-container {
+  display: grid;
+  grid-gap: 10px;
+  background-color: rgb(240, 243, 245);
+  padding: 10px;
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.item2 {
+  grid-column: 3;
+  grid-row: 1 / span 2;
+}
+
+.item5 {
+  grid-column: 1 / span 3;
+  grid-row: 3;
+}
+/* ///img gallery home page// */
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.nav {
+  overflow: hidden;
+  background-color: rgba(250, 245, 245, 0);
+  text-align: left;
+  float: left;
+  position: absolute;
+  margin-left: 15px;
+}
+
+/* Style the topnav links */
+.nav a {
+  float: center;
+  display: inline-flex;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  color: #ff5a07;
+  background-color: #0e090900;
+}
+
+/* Change color on hover */
+.nav a:hover {
+  background-color: rgba(221, 221, 221, 0);
+  color: rgb(55, 26, 173);
+}
+
+/* Create two unequal columns that floats next to each other */
+/* Left column */
+.leftcolumn {
+  float: left;
+  width: 75%;
+}
+
+/* Right column */
+.rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #f1f1f1;
+  padding-left: 20px;
+}
+/* ///login form// */
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgb(10, 7, 7);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="login"] {
+  width: 100%;
+  background-color: #ff5a07;
+  color: rgb(246, 242, 242);
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  text-align: center;
+}
+
+input[type="login"]:hover {
+  background-color: rgb(55, 26, 173);
+}
+
+#div1 {
+  border-radius: 5px;
+  background-color: #3885f1;
+  padding: 20px;
+}
+
+/* Fake image */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Add a card effect for articles */
+.card {
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+
+/* Create four equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 25%;
+  padding: 10px;
+  color: rgb(245, 243, 238);
+}
+
+/* Clear floats after the columns */
+.row2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row2{
+  padding: 10px;
+  background-color: black;
+  line-height: 25px;
+  
+}
+.social{
+  word-spacing: 10px;
+  float: left;
+  width: 25%;
+  color: rgb(245, 243, 238);
+  line-height: 45px;
+}
+.hover:hover{
+color: blue;
+}
+/* //////////////////NAV BAR CSS/////////////////////// */
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+body {
+  margin: 0;
+}
+
+.nav {
+  align-content: center;
+  margin-left: 240px;
+  margin-right: 60px;
+}
+.nav a {
+  display: inline-flex;
+  padding: 60px 30px;
+  text-decoration: none;
+  color: #066577;
+}
+.nav a:hover {
+  color: #4dc5d6;
+}
+/* .home {
+      float: left;
+  }
+  .about {
+      float: left;
+  }
+  .shop {
+      float: left;
+  }
+  .adoptables {
+      float: left;
+  }
+  .programs {
+      float: left;
+  } */
+.nav div {
+  position: relative;
+  float: left;
+}
+
+.donate ul {
+  position: absolute;
+  top: 75px;
+  display: none;
+}
+
+.donate:hover ul {
+  display: block;
+}
+
+.donate ul li {
+  padding: 10px;
+}
+.logo {
+  float: left;
+  margin-top: 30px;
+}
+
+/* //////////////////////////PAY CSS////////////////////////// */
+
+/* Header/Blog Title */
+.header {
+  background-size: contain;
+  background-attachment: scroll;
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  float: center;
+  background-color: #0e090900;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
+.header h1 {
+  font-size: 50px;
+}
+
+/* Style the top navigation bar */
+.nav {
+  overflow: hidden;
+  background-color: rgba(250, 245, 245, 0);
+  text-align: center;
+  float: center;
+  position: absolute;
+}
+
+/* Style the topnav links */
+.nav a {
+  float: center;
+  display: inline-flex;
+  text-align: center;
+  padding: 10px 14px;
+  text-decoration: none;
+  color: #ff5a07;
+  background-color: #0e090900;
+}
+
+/* Change color on hover */
+.nav a:hover {
+  background-color: rgba(221, 221, 221, 0);
+  color: rgb(55, 26, 173);
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  margin: 0 -16px;
+}
+
+.col-50 {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+}
+
+=======
+>>>>>>> 9ca0a99057189b3092be2b1934e297402d070d29
 .col-75 {
   -ms-flex: 75%; /* IE10 */
   flex: 75%;
