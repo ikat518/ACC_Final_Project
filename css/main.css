@@ -382,8 +382,7 @@ a {
 
 .staffoverlay {
   position: absolute;
-  /*
-  padding:15px;*/
+  /* padding:15px; */
   top: 0;
   bottom: 0;
   left: 0;
@@ -394,8 +393,7 @@ a {
   transition: all 300ms ease;
 }
 
-img,
-.staffoverlay {
+img, .staffoverlay {
   border-radius: 4px;
 }
 
@@ -424,6 +422,14 @@ img {
   flex-wrap: nowrap;
   flex-flow: row;
 }
+
+.aboutheading {
+background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
 
 /* /////////////////////////////////////////////////////////////////////////////////////////LUKEE || HOME////////////////////////////////////////////////////////////////////////////////////////// */
 
