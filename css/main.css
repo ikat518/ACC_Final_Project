@@ -37,7 +37,7 @@ h1 {
  /////////////////////////////////////////////////////////// */
 .shop-transparency {
   width: 100%;
-  height: 650px;
+  height: 550px;
   background: linear-gradient(
       to right,
       rgba(223, 31, 134, 0.710504270067402) 0%,
@@ -55,7 +55,7 @@ h1 {
 
 .adoptables-transparency {
   width: 100%;
-  height: 650px;
+  height: 550px;
   background: linear-gradient(
       to right,
       rgba(6, 101, 119, 1) 0%,
@@ -70,7 +70,7 @@ h1 {
 
 .about-transparency {
   width: 100%;
-  height: 650px;
+  height: 550px;
   background: linear-gradient(
       to right,
       rgba(223, 31, 134, 1) 0%,
@@ -86,7 +86,7 @@ h1 {
 
 .programs-transparency {
   width: 100%;
-  height: 650px;
+  height: 550px;
   background: linear-gradient(
       to right,
       rgba(6, 101, 119, 1) 0%,
@@ -104,7 +104,7 @@ h1 {
 
 .home-transparency {
   width: 100%;
-  height: 650px;
+  height: 550px;
   background: linear-gradient(
       to right,
       rgba(6, 101, 119, 1) 0%,
