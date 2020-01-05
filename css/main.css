@@ -376,6 +376,20 @@ a {
 /*//////////////////////////////////////////////////////////////
 ///////////////////JULIANNE ||  ABOUT and CONTACT ///////////////////////////////////////////////////////////////////////////// */
 
+.about-leftcolumn {
+float: left;
+  width: 75%;
+  margin: 0;
+}
+
+.about-rightcolumn {
+float: left;
+  width: 25%;
+  background-color: #c0e4f4;
+  padding-left: 20px;
+  margin: 0;
+}
+
 .profile {
   position: relative;
 }
