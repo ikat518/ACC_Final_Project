@@ -35,6 +35,7 @@ h1 {
 /*////////////////////////////////////////////////////////////
  /////////////HEADER IMAGE and HERO TRANSPARENCY////////////////
  /////////////////////////////////////////////////////////// */
+
 .shop-transparency {
   width: 100%;
   height: 550px;
@@ -107,11 +108,11 @@ h1 {
   height: 550px;
   background: linear-gradient(
       to right,
-      rgba(6, 101, 119, 1) 0%,
+      rgba(6, 101, 119, 1) 3%,
       rgba(192, 228, 244, 0.5536415249693627) 95%,
-      rgba(223, 31, 134, 0.710504270067402) 0%
+      rgba(223, 31, 134, 0.710504270067402) 17%
     ),
-    url("../img/hero_man_dog.jpg");
+    url("../img/puppy_grass_gray.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -147,47 +148,38 @@ h1 {
 //////////////////////KAT ||  NAV/////////////////////////
 //////////////////////////////////////////////////////////// */
 
-ul {
-  list-style: none;
+.nav-bar {
+  display: flex;
+  background: white;
+  width: 100%;
+  height: 100px;
+  align-content: center;
 }
-
-a {
-  text-decoration: none;
-  color: #333;
-}
-
 .nav {
   align-content: center;
   margin-left: 220px;
   padding: 30px;;
   margin-bottom: 100px;
+  margin-left: 200px;
+  margin-right: 150px;
 }
-.nav a  {
+.mobile-nav {
+  display: none;
+}
+.mobile-logo {
+  display: none;
+}
+.nav a {
   display: inline-flex;
   padding: 60px 30px;
   text-decoration: none;
   color: #066577;
 
 }
-
 .nav a:hover {
   color: #4dc5d6;
 }
-/* .home {
-      float: left;
-  }
-  .about {
-      float: left;
-  }
-  .shop {
-      float: left;
-  }
-  .adoptables {
-      float: left;
-  }
-  .programs {
-      float: left;
-  } */
+
 .nav div {
   position: relative;
   float: left;
@@ -210,7 +202,6 @@ a {
   float: left;
   margin-top: 30px;
 }
-
 /* ///////////////////////////////////////////////////////////
 //////////////////////////ICONS//////////////////////////////////////////////////////////////////////////////////////////////// */
 .fa-envelope-square {
@@ -380,13 +371,13 @@ a {
 ///////////////////JULIANNE ||  ABOUT and CONTACT ///////////////////////////////////////////////////////////////////////////// */
 
 .about-leftcolumn {
-float: left;
+  float: left;
   width: 75%;
   margin: 0;
 }
 
 .about-rightcolumn {
-float: left;
+  float: left;
   width: 25%;
   background-color: #c0e4f4;
   padding-left: 20px;
@@ -410,7 +401,8 @@ float: left;
   transition: all 300ms ease;
 }
 
-img, .staffoverlay {
+img,
+.staffoverlay {
   border-radius: 4px;
 }
 
@@ -432,16 +424,24 @@ img {
   display: inline-block;
 }
 
-.social {
-  display: flex;
-  justify-content: space-evenly;
-  cursor: pointer;
-  flex-wrap: nowrap;
-  flex-flow: row;
+
+
+.map {
+  float:left;
+  padding: 20px;
+}
+
+.hours { 
+padding: 20px;
 }
 
 .aboutheading {
-background-color: white;
+  background-color: white;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.aboutlocation {
   padding: 20px;
   margin-top: 20px;
 }
@@ -451,15 +451,19 @@ background-color: white;
   color: #df1f86;
 }
 
+.fa-instagram-about{
+  color: #303435;
+  background:white;
+ }
+
 /*//////////////////////////////////////////////////////////////
 ///////////////////JULIANNE ||  HOLIDAY///////////////////////////////////////////////////////////////////////////// */
 
-
 .holiday_heading {
-  background-color:rgb(66, 116, 66);
-    padding: 20px;
-    margin-top: 20px;
-  }
+  background-color: rgb(66, 116, 66);
+  padding: 20px;
+  margin-top: 20px;
+}
 
 .drive_photos {
   position: relative;
@@ -492,62 +496,8 @@ img {
   position: absolute;
 }
 
-/* ///img gallery home page// */
-div.gallery {
-  margin: 5px;
-  border: 1px solid #ccc;
-  float: left;
-  width: 180px;
-}
 
-div.gallery:hover {
-  border: 1px solid #777;
-}
-
-div.gallery img {
-  width: 100%;
-  height: auto;
-}
-
-div.desc {
-  padding: 15px;
-  text-align: center;
-}
-
-input[type="text"],
-select {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid rgb(10, 7, 7);
-  border-radius: 4px;
-  box-sizing: border-box;
-}
-
-input[type="login"] {
-  width: 100%;
-  background-color: #ff5a07;
-  color: rgb(246, 242, 242);
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-  text-align: center;
-}
-
-input[type="login"]:hover {
-  background-color: rgb(55, 26, 173);
-}
-
-#div1 {
-  border-radius: 5px;
-  background-color: #3885f1;
-  padding: 20px;
-}
-
-/* Fake image */
+Fake image
 .fakeimg {
   background-color: #aaa;
   width: 100%;
@@ -569,20 +519,35 @@ input[type="login"]:hover {
 
 /* ///////////////////////////////////////////////////////////////////////////////////////LUKEE || FOOTER/////////////////////////////////////////////////////////////////////////////////////////// */
 /* Footer */
-.footer {
-  padding: 100px;
-  text-align: left;
-  background: #ddd;
-  margin-top: 10px;
-}
 /* Create four equal columns that floats next to each other */
 .column {
   float: left;
   width: 25%;
-  padding: 10px;
-  height: 300px; /* Should be removed. Only for demonstration */
+  padding: 15px;
+  padding-top: 25px;
   color: rgb(245, 243, 238);
+  background-color: black;
+  padding-bottom: 35px;
+  margin-bottom: 0px;
+}
+a:hover{
+  color: blue;
+}
+.social {
+  float: left;
+  width: 25%;
+  line-height: 35px;
+  color: rgb(245, 243, 238);
+  background-color: black;
   margin: 0;
+  padding-top: 25px;
+  padding-bottom: 35px;
+  margin-bottom: 0px;
+}
+.row2{
+  padding-bottom: 30px;
+  height: 5px;
+  background-color: rgb(7, 7, 10);
 }
 
 /* Clear floats after the columns */
@@ -590,43 +555,46 @@ input[type="login"]:hover {
   content: "";
   display: table;
   clear: both;
+  background-color: rgb(10, 7, 7);
 }
 
-.fa {
-  padding: 5px;
-  font-size: 3px;
-  width: 30px;
-  height: 30px;
+/* ///////////////////////////////////////////////////////////////////////////////Home css////////////////////////////////////////////// */
+.flex-containerhome {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color:#df1f86;
+}
+
+.flex-containerhome>div {
+  background-color:#df1f86;
+  color: #df1f86;
+  width: 100px;
+  height: 100px;
   text-align: center;
-  text-decoration: none;
-  margin: 3px 6px;
+  margin-right: 400px;
+}
+.flex-containerhome2 {
+  display: flex;
+  justify-content: center;
+  background-color: DodgerBlue;
 }
 
-.fa:hover {
-  opacity: 0.7;
+.flex-containerhome2 > div {
+  background-color: #f1f1f1;
+  width: 30%;
+  height: 30%;
+  margin: 35px;
+  margin-left: 10px;
+  text-align: center;
+  line-height: 65px;
+  flex-basis: content;
+  /* font-size: 30px; */
 }
-
-.fa-facebook {
-  background: #3b5998;
-  color: white;
+#home-title-text{
+  text-align: center;
 }
-
-.fa-youtube {
-  background: #bb0000;
-  color: white;
-}
-
-.fa-instagram {
-  background: #125688;
-  color: white;
-}
-
-.fa-snapchat-ghost {
-  background: #fffc00;
-  color: white;
-  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
-}
-
 /* //////////////////////////////////////////////////////////////////////////////////////LUKEE || PAY CSS/////////////////////////////////////////////////////////////////////////////////////////// */
 
 .row {
@@ -763,22 +731,18 @@ text-align: center;
 .past-programs {
   margin-left: 150px;
   width: 200px;
-
 }
 .past-programs-header {
   text-align: center;
   margin-bottom: 40px;
   text-transform: uppercase;
 }
-.past-programs-card{
+.past-programs-card {
   text-align: center;
   margin-bottom: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 .past-programs-img{
   margin: auto;
   padding: 0px;
 }
-
-

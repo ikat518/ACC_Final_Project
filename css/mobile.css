@@ -40,131 +40,122 @@ body {
   }
 }
 /* if the screen is less than 1210px wide */
-@media screen and (max-width: 1210px)
-{
-
-.nav {
+@media screen and (max-width: 1210px) {
+  .nav {
     align-content: center;
     margin-left: 6rem;
     margin-right: 5rem;
     width: 100%;
- }
-.logo {
+  }
+  .logo {
     float: left;
     margin-top: 1.5rem;
-}
-.mobile-nav {
+  }
+  .mobile-nav {
     display: none;
-}
-.mobile-logo {
+  }
+  .mobile-logo {
     display: none;
-}
+  }
 }
 /* if the screen is less than 1020px wide */
-@media screen and (max-width: 1020px){
-.nav {
-        align-content: center;
-        margin-left: 3rem;
-        margin-right: 2rem;
-        width: 100%;
-     }
-.logo {
-        float: left;
-        margin-top: 30px;
-    }
-.nav a {
-        display: inline-flex;
-        padding: 60px 30px;
-     }
-.mobile-nav {
-        display: none;
-    }
-.mobile-logo {
-        display: none;
-    }
-
+@media screen and (max-width: 1020px) {
+  .nav {
+    align-content: center;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    width: 100%;
+  }
+  .logo {
+    float: left;
+    margin-top: 30px;
+  }
+  .nav a {
+    display: inline-flex;
+    padding: 60px 30px;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  .mobile-logo {
+    display: none;
+  }
 }
 /* if the screen is less than 950px wide */
-@media screen and (max-width: 950px){
-    .nav {
-        align-content: center;
-        margin-left: 3rem;
-        margin-right: 3rem;
-        width: 100%;
-
-    }
-    .nav a {
-        padding: 60px 15px;
-
-    }
-    .mobile-nav {
-        display: none;
-    }
-    .mobile-logo {
-        display: none;
-    }
+@media screen and (max-width: 950px) {
+  .nav {
+    align-content: center;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    width: 100%;
+  }
+  .nav a {
+    padding: 60px 15px;
+  }
+  .mobile-nav {
+    display: none;
+  }
+  .mobile-logo {
+    display: none;
+  }
 }
 /* if the screen is less than 768px wide */
-@media screen and (max-width: 768px){
-    .nav {
-        display: none;
-    }
-    .mobile-logo {
-        display: inline-block;
-        margin-top: 2rem;
-        margin-left: 2rem;
-    }
-    .mobile-nav {
-        display: block;
-        color: #066577;
-        width: 100%;
-   
-    }
-    .mobile-nav div {
-        height: 1rem;
-        padding: 1rem;
-        margin-top: 1rem;
-        margin-left: 1rem;
+@media screen and (max-width: 768px) {
+  .nav {
+    display: none;
   }
-   a {
-        color: inherit;
-   }
-    .mobile-nav a:hover {
-        color: #4DC5D6;
-    }
-
+  .mobile-logo {
+    display: inline-block;
+    margin-top: 2rem;
+    margin-left: 2rem;
   }
-  /* if the screen is less than 375px wide */
-@media screen and (max-width: 375px){
-    .nav {
-        display: none;
-    }
-    .mobile-logo {
-        margin-top: 2rem;
-        margin-left: 2rem;
-    }
-    .mobile-nav {
-        display: block;
-        height: 2rem;
-        width: 100%;
-
-    }
-    .mobile-nav div {
-        height: 1rem;
-        padding: 1rem;
-        margin-top: 1rem;
-        margin-left: 1rem;
-        color: #066577;
-    }
-
-   a {
-        color: inherit;
-   }
-    .mobile-nav a:hover {
-        color: #4DC5D6;
-    }
+  .mobile-nav {
+    display: block;
+    color: #066577;
+    width: 100%;
+  }
+  .mobile-nav div {
+    height: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+  }
+  a {
+    color: inherit;
+  }
+  .mobile-nav a:hover {
+    color: #4dc5d6;
+  }
 }
+/* if the screen is less than 375px wide */
+@media screen and (max-width: 375px) {
+  .nav {
+    display: none;
+  }
+  .mobile-logo {
+    margin-top: 2rem;
+    margin-left: 2rem;
+  }
+  .mobile-nav {
+    display: block;
+    height: 2rem;
+    width: 100%;
+  }
+  .mobile-nav div {
+    height: 1rem;
+    padding: 1rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    color: #066577;
+  }
 
+  a {
+    color: inherit;
+  }
+  .mobile-nav a:hover {
+    color: #4dc5d6;
+  }
+}
 
 /* ////////////Responsive - Screen is less than 1400px wide ///////////*/
 @media screen and (max-width: 1400px) {
@@ -179,6 +170,18 @@ body {
   .shop-rightcolumn {
     width: 100%;
     padding: 0;
+    margin: 0;
+  }
+
+  .about-leftcolumn {
+    width: 100%;
+    margin: 0;
+  }
+
+  .about-rightcolumn {
+    width: 100%;
+    background-color: #c0e4f4;
+    padding-left: 20px;
     margin: 0;
   }
 
