@@ -35,6 +35,7 @@ h1 {
 /*////////////////////////////////////////////////////////////
  /////////////HEADER IMAGE and HERO TRANSPARENCY////////////////
  /////////////////////////////////////////////////////////// */
+
 .shop-transparency {
   width: 100%;
   height: 550px;
@@ -147,45 +148,34 @@ h1 {
 //////////////////////KAT ||  NAV/////////////////////////
 //////////////////////////////////////////////////////////// */
 
-ul {
-  list-style: none;
+.nav-bar {
+  display: flex;
+  background: white;
+  width: 100%;
+  height: 100px;
+  align-content: center;
 }
-
-a {
-  text-decoration: none;
-  color: #333;
-}
-
 .nav {
   align-content: center;
-  margin-left: 220px;
-  /* margin-right: 60px; */
+  margin-left: 200px;
+  margin-right: 150px;
 }
-.nav a  {
+.mobile-nav {
+  display: none;
+}
+.mobile-logo {
+  display: none;
+}
+.nav a {
   display: inline-flex;
   padding: 60px 30px;
   text-decoration: none;
   color: #066577;
 }
-
 .nav a:hover {
   color: #4dc5d6;
 }
-/* .home {
-      float: left;
-  }
-  .about {
-      float: left;
-  }
-  .shop {
-      float: left;
-  }
-  .adoptables {
-      float: left;
-  }
-  .programs {
-      float: left;
-  } */
+
 .nav div {
   position: relative;
   float: left;
@@ -208,7 +198,6 @@ a {
   float: left;
   margin-top: 30px;
 }
-
 /* ///////////////////////////////////////////////////////////
 //////////////////////////ICONS//////////////////////////////////////////////////////////////////////////////////////////////// */
 .fa-envelope-square {
@@ -378,13 +367,13 @@ a {
 ///////////////////JULIANNE ||  ABOUT and CONTACT ///////////////////////////////////////////////////////////////////////////// */
 
 .about-leftcolumn {
-float: left;
+  float: left;
   width: 75%;
   margin: 0;
 }
 
 .about-rightcolumn {
-float: left;
+  float: left;
   width: 25%;
   background-color: #c0e4f4;
   padding-left: 20px;
@@ -408,7 +397,8 @@ float: left;
   transition: all 300ms ease;
 }
 
-img, .staffoverlay {
+img,
+.staffoverlay {
   border-radius: 4px;
 }
 
@@ -439,7 +429,7 @@ img {
 }
 
 .map {
-  float:left;
+  float: left;
 }
 .aboutheading {
   background-color: white;
@@ -448,7 +438,7 @@ img {
 }
 
 .aboutlocation {
-  padding:20px;
+  padding: 20px;
   margin-top: 20px;
 }
 
@@ -460,12 +450,11 @@ img {
 /*//////////////////////////////////////////////////////////////
 ///////////////////JULIANNE ||  HOLIDAY///////////////////////////////////////////////////////////////////////////// */
 
-
 .holiday_heading {
-  background-color:rgb(66, 116, 66);
-    padding: 20px;
-    margin-top: 20px;
-  }
+  background-color: rgb(66, 116, 66);
+  padding: 20px;
+  margin-top: 20px;
+}
 
 .drive_photos {
   position: relative;
@@ -715,26 +704,22 @@ span.price {
 /* /////////////////////////////////////////////////////////////////////////////////////KAT || PROGRAMS CSS//////////////////////////////////////////////////////////////////////////////////////// */
 
 .programs-header {
-text-transform: uppercase;
-margin-bottom: 30px;
-text-align: center;
-} 
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  text-align: center;
+}
 
 .programs1 {
   width: 100%;
   padding: 60px;
   margin: 10px auto 10px;
-  
-
 }
 .programs-card {
   background: white;
   margin-right: 40px;
   margin-bottom: 40px;
   padding: 40px 30px 30px 40px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
-
-  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* .program-overlay {
   position: absolute;
@@ -748,34 +733,27 @@ text-align: center;
   border-radius: 4px;
 } */
 
-
 .program-img {
   padding: 0px;
   margin-bottom: 10px;
-
 }
 .past-programs {
   margin-left: 100px;
   width: 200px;
-
 }
 .past-programs-header {
   text-align: center;
   margin-bottom: 40px;
   text-transform: uppercase;
 }
-.past-programs-card{
+.past-programs-card {
   text-align: center;
 
   margin-bottom: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
-.past-programs-img{
+.past-programs-img {
   margin: auto;
   padding: 0px;
-
 }
-
-
