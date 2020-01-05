@@ -40,21 +40,7 @@ body {
 .nav a:hover {
     color: #4DC5D6;
 }
-/* .home {
-    float: left;
-}
-.about {
-    float: left;
-}
-.shop {
-    float: left;
-}
-.adoptables {
-    float: left;
-}
-.programs {
-    float: left;
-} */
+
 .nav div {
     position: relative;
     float:left;
