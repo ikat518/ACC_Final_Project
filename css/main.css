@@ -429,6 +429,44 @@ background-color: white;
   margin-top: 20px;
 }
 
+.petdrive {
+  font-size: 17px;
+  color: #df1f86;
+}
+
+/*//////////////////////////////////////////////////////////////
+///////////////////JULIANNE ||  HOLIDAY///////////////////////////////////////////////////////////////////////////// */
+
+
+.holiday_heading {
+  background-color:rgb(66, 116, 66);
+    padding: 20px;
+    margin-top: 20px;
+  }
+
+.drive_photos {
+  position: relative;
+}
+
+img {
+  border-radius: 4px;
+}
+
+img {
+  display: block;
+  /*  border-radius: */
+}
+
+.holiday-wrapper {
+  width: 300px;
+  /*border: 3px solid #333;*/
+  padding: 5px;
+  margin-bottom: 10px;
+  /*border-radius: 5px;*/
+  display: inline-block;
+}
+
+.holidaygallery
 
 
 /* /////////////////////////////////////////////////////////////////////////////////////////LUKEE || HOME////////////////////////////////////////////////////////////////////////////////////////// */
