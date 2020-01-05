@@ -437,10 +437,15 @@ img {
   flex-flow: row;
 }
 
+
 .aboutheading {
-background-color: white;
+  background-color: white;
   padding: 20px;
   margin-top: 20px;
+}
+
+.aboutlocation {
+  float:left;
 }
 
 .petdrive {
