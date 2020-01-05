@@ -438,7 +438,9 @@ img {
   flex-flow: row;
 }
 
-
+.map {
+  float:left;
+}
 .aboutheading {
   background-color: white;
   padding: 20px;
@@ -446,7 +448,8 @@ img {
 }
 
 .aboutlocation {
-  float:left;
+  padding:20px;
+  margin-top: 20px;
 }
 
 .petdrive {
