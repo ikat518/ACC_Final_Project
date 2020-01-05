@@ -440,7 +440,13 @@ img {
 
 .map {
   float:left;
+  padding: 20px;
 }
+
+.hours { 
+padding: 20px;
+}
+
 .aboutheading {
   background-color: white;
   padding: 20px;
@@ -456,6 +462,11 @@ img {
   font-size: 17px;
   color: #df1f86;
 }
+
+.fa-instagram-about{
+  color: #303435;
+  background:white;
+ }
 
 /*//////////////////////////////////////////////////////////////
 ///////////////////JULIANNE ||  HOLIDAY///////////////////////////////////////////////////////////////////////////// */
