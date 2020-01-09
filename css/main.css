@@ -148,13 +148,13 @@ h1 {
 //////////////////////KAT ||  NAV/////////////////////////
 //////////////////////////////////////////////////////////// */
 
-.nav-bar {
+/* .nav-bar {
   display: flex;
   background: white;
   width: 100%;
   height: 100px;
   align-content: center;
-}
+} */
 .nav {
   align-content: center;
   margin-left: 220px;
@@ -163,12 +163,24 @@ h1 {
   margin-left: 200px;
   margin-right: 150px;
 }
-.mobile-nav {
-  display: none;
+/* .mobile-nav {
+  display: block;
+  height: 2rem;
+  width: 100%;
+}
+.mobile-nav div{
+  display: block;
+  height: 1rem;
+  padding: 1rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  color: #066577;
 }
 .mobile-logo {
-  display: none;
-}
+  display: inline-block;
+  margin-top: 2rem;
+  margin-left: 2rem;
+} */
 .nav a {
   display: inline-flex;
   padding: 60px 30px;
@@ -681,7 +693,7 @@ text-transform: uppercase;
 margin: 00px;
 text-align: center;
 } 
-.programs-container {
+.programs-container{
   padding-top: 30px;
   width: 100%;
 }
