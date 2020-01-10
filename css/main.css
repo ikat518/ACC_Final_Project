@@ -442,7 +442,19 @@ img {
   margin-top: 20px;
 }
 
+.about_ambass {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+
 .aboutlocation {
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.about_card {
+  background-color: white;
   padding: 20px;
   margin-top: 20px;
 }
@@ -459,13 +471,22 @@ img {
 
 /*/////////////////////////////////////////////////////////////////////////////////JULIANNE ||  ANNUAL REPORT///////////////////////////////////////////////////////////////////////////// */
 
+.reporttitle {
+  margin:30px;
+  padding:0px;
+}
 
-
-.report_photos {
+.report_photo_1 {
   padding: 25px;
   width: 500px;
 }
 
+.report_photo-2 {
+  padding: 20px;
+  width: 400px;
+  margin: 48px;
+
+}
 
 .annualreportdownload {
   
