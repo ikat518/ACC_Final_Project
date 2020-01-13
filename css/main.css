@@ -154,15 +154,14 @@ h1 {
 .nav {
   align-content: center;
   width: 100%;
-  padding: 30px;
+  padding: 10px 0px 20px 100px;
   margin-bottom: 100px;
+  height: 60px; 
 }
 .nav a {
   display: inline-flex;
-  padding: 60px 30px;
   text-decoration: none;
-  color: #066577;
-  margin-left: 40px;
+  color: #066577; 
 }
 .nav a:hover {
   color: #4dc5d6;
@@ -171,11 +170,13 @@ h1 {
   position: relative;
   float: left;
 }
-.logo {
-  float: left;
+.nav-logo {
+  margin-top: 60px;
   padding-top: 30px;
   padding-left: 10px;
 }
+
+
 /* ///////////////////////////////////////////////////////////
 //////////////////////////ICONS//////////////////////////////////////////////////////////////////////////////////////////////// */
 .fa-envelope-square {
@@ -722,8 +723,7 @@ span.price {
   padding: 20px;
 }
 .past-programs {
-  margin-left: 150px;
-  width: 200px;
+  margin-left: 60px;
 }
 .past-programs-header {
   text-align: center;
@@ -731,11 +731,12 @@ span.price {
   text-transform: uppercase;
 }
 .past-programs-card {
+  width: 200px;
   text-align: center;
   margin-bottom: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .past-programs-img {
-  margin: auto;
-  padding: 0px;
+  width: 200px;
+  padding: 10px;
 }
