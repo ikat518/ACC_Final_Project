@@ -67,6 +67,9 @@ h1 {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
+  float: none;
+  margin: 0;
+  padding: 0;
 }
 
 .about-transparency {
@@ -108,11 +111,11 @@ h1 {
   height: 550px;
   background: linear-gradient(
       to right,
-      rgba(6, 101, 119, 1) 3%,
-      rgba(192, 228, 244, 0.5536415249693627) 95%,
-      rgba(223, 31, 134, 0.710504270067402) 17%
+      rgba(6, 101, 119, 1) 0%,
+      rgba(192, 228, 244, 0.46680679107580536) 65%,
+      rgba(223, 31, 134, 1) 100%
     ),
-    url("../img/puppy_grass_gray.jpg");
+    url("../img/hero_cutie_pup.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -148,71 +151,30 @@ h1 {
 //////////////////////KAT ||  NAV/////////////////////////
 //////////////////////////////////////////////////////////// */
 
-/* .nav-bar {
-  display: flex;
-  background: white;
-  width: 100%;
-  height: 100px;
-  align-content: center;
-} */
 .nav {
   align-content: center;
-  margin-left: 220px;
-  padding: 30px;;
-  margin-bottom: 100px;
-  margin-left: 200px;
-  margin-right: 150px;
-}
-/* .mobile-nav {
-  display: block;
-  height: 2rem;
   width: 100%;
+  padding: 30px;
+  margin-bottom: 100px;
 }
-.mobile-nav div{
-  display: block;
-  height: 1rem;
-  padding: 1rem;
-  margin-top: 1rem;
-  margin-left: 1rem;
-  color: #066577;
-}
-.mobile-logo {
-  display: inline-block;
-  margin-top: 2rem;
-  margin-left: 2rem;
-} */
 .nav a {
   display: inline-flex;
   padding: 60px 30px;
   text-decoration: none;
   color: #066577;
-
+  margin-left: 40px;
 }
 .nav a:hover {
   color: #4dc5d6;
 }
-
 .nav div {
   position: relative;
   float: left;
 }
-
-.donate ul {
-  position: absolute;
-  top: 75px;
-  display: none;
-}
-
-.donate:hover ul {
-  display: block;
-}
-
-.donate ul li {
-  padding: 10px;
-}
 .logo {
   float: left;
-  margin-top: 30px;
+  padding-top: 30px;
+  padding-left: 10px;
 }
 /* ///////////////////////////////////////////////////////////
 //////////////////////////ICONS//////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -436,15 +398,13 @@ img {
   display: inline-block;
 }
 
-
-
 .map {
-  float:left;
+  float: left;
   padding: 20px;
 }
 
-.hours { 
-padding: 20px;
+.hours {
+  padding: 20px;
 }
 
 .aboutheading {
@@ -463,10 +423,10 @@ padding: 20px;
   color: #df1f86;
 }
 
-.fa-instagram-about{
+.fa-instagram-about {
   color: #303435;
-  background:white;
- }
+  background: white;
+}
 
 /*//////////////////////////////////////////////////////////////
 ///////////////////JULIANNE ||  HOLIDAY///////////////////////////////////////////////////////////////////////////// */
@@ -499,8 +459,9 @@ img {
   display: inline-block;
 }
 
-.holidaygallery
-
+.holidaygallery {
+  color: #b8df9e;
+}
 
 /* /////////////////////////////////////////////////////////////////////////////////////////LUKEE || HOME////////////////////////////////////////////////////////////////////////////////////////// */
 
@@ -508,9 +469,7 @@ img {
   position: absolute;
 }
 
-
-Fake image
-.fakeimg {
+Fake image .fakeimg {
   background-color: #aaa;
   width: 100%;
   padding: 20px;
@@ -542,7 +501,7 @@ Fake image
   padding-bottom: 35px;
   margin-bottom: 0px;
 }
-a:hover{
+a:hover {
   color: blue;
 }
 .social {
@@ -556,7 +515,7 @@ a:hover{
   padding-bottom: 35px;
   margin-bottom: 0px;
 }
-.row2{
+.row2 {
   padding-bottom: 30px;
   height: 5px;
   background-color: rgb(7, 7, 10);
@@ -576,11 +535,11 @@ a:hover{
   justify-content: center;
   align-items: center;
   height: 200px;
-  background-color:#df1f86;
+  background-color: #df1f86;
 }
 
-.flex-containerhome>div {
-  background-color:#df1f86;
+.flex-containerhome > div {
+  background-color: #df1f86;
   color: #df1f86;
   width: 100px;
   height: 100px;
@@ -604,7 +563,7 @@ a:hover{
   flex-basis: content;
   /* font-size: 30px; */
 }
-#home-title-text{
+#home-title-text {
   text-align: center;
 }
 /* //////////////////////////////////////////////////////////////////////////////////////LUKEE || PAY CSS/////////////////////////////////////////////////////////////////////////////////////////// */
@@ -689,57 +648,30 @@ span.price {
 /* /////////////////////////////////////////////////////////////////////////////////////KAT || PROGRAMS CSS//////////////////////////////////////////////////////////////////////////////////////// */
 
 .programs-header {
-text-transform: uppercase;
-margin: 00px;
-text-align: center;
+ text-transform: uppercase;
+ text-align: center;
 } 
 .programs-container{
   padding-top: 30px;
   width: 100%;
 }
-
-/* .programs1 {
-  width: 100%;
-  padding: 40px;
-  margin: 10px auto 10px;
-
-} */
 .programs-card {
   background: white;
-  padding: 30px 30px 60px 30px;
+  padding: 30px;
   margin-top: 20px;
   margin-bottom: 50px;
   height: flex;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);;
-
-  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-/* .program-overlay {
-  position: absolute;
-  opacity: 0;
-  transition: all 300ms ease;
-  background: rgba(224, 31, 134, 0.3);
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  border-radius: 4px;
-} */
-
-  
-
 .program-img {
   padding: 0px;
   margin-bottom: 10px;
 }
-
 .programs-adopt-card {
   text-align: center;
-    /* width: 700px; */
   margin-bottom: 50px;
   padding: 20px;
- }
-
+}
 .past-programs {
   margin-left: 150px;
   width: 200px;
@@ -754,7 +686,7 @@ text-align: center;
   margin-bottom: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
-.past-programs-img{
+.past-programs-img {
   margin: auto;
   padding: 0px;
 }
