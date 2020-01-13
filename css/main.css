@@ -504,17 +504,8 @@ Fake image .fakeimg {
 }
 
 /* Add a card effect for articles */
-.card {
-  background-color: white;
-  padding: 20px;
-  margin-top: 20px;
-}
-.card1 {
-  background-color: white;
-  padding: 20px;
-  height: 1350px;
-  text-align: center;
-}
+
+
 
 /* ///////////////////////////////////////////////////////////////////////////////////////LUKEE || FOOTER/////////////////////////////////////////////////////////////////////////////////////////// */
 /* Footer */
@@ -532,7 +523,7 @@ Fake image .fakeimg {
 a:hover {
   color: blue;
 }
-.social {
+.social1 {
   float: left;
   width: 25%;
   line-height: 35px;
@@ -540,13 +531,17 @@ a:hover {
   background-color: black;
   margin: 0;
   padding-top: 25px;
-  padding-bottom: 35px;
+  padding-bottom: 35.4px;
   margin-bottom: 0px;
+}
+.social1 a{
+  padding-left: 5px;
 }
 .row2 {
   padding-bottom: 30px;
   height: 5px;
   background-color: rgb(7, 7, 10);
+  clear: both;
 }
 
 /* Clear floats after the columns */
@@ -558,6 +553,19 @@ a:hover {
 }
 
 /* ///////////////////////////////////////////////////////////////////////////////Home css////////////////////////////////////////////// */
+.home-rightcolumn {
+  position: relative;
+  float: right;
+  right: 125px;
+  width: 25%;
+  margin-top: 5px;
+}
+.card3{
+  height: 50%;
+  width: 50%;
+  margin-top: 5px;
+ 
+}
 .flex-containerhome {
   display: flex;
   justify-content: center;
@@ -594,6 +602,26 @@ a:hover {
 #home-title-text {
   text-align: center;
 }
+
+.flex-containerhome3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 55px;
+  background-color: #df1f86;
+  color: white;
+}
+
+.flex-containerhome3 > div {
+  background-color: #df1f86;
+  color: #df1f86;
+  width: 100px;
+  height: 5px;
+  text-align: center;
+  margin-right: 400px;
+}
+
+
 /* //////////////////////////////////////////////////////////////////////////////////////LUKEE || PAY CSS/////////////////////////////////////////////////////////////////////////////////////////// */
 
 .row {
