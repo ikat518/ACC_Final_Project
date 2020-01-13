@@ -375,7 +375,8 @@ h1 {
 .about-leftcolumn {
   float: left;
   width: 75%;
-  margin: 0;
+  /* margin: 0; */
+  padding-left: 0;
 }
 
 .about-rightcolumn {
@@ -419,41 +420,53 @@ img {
 }
 
 .staff-wrapper {
-  width: 300px;
-  /*border: 3px solid #333;*/
-  padding: 5px;
+  width: 350px;
+  padding: 25px;
   margin-bottom: 10px;
-  /*border-radius: 5px;*/
+  /* border-radius: 5px; */
   display: inline-block;
 }
 
 .map {
   float: left;
-  padding: 20px;
+  padding: 15px;
+  position: relative;
+}
+
+
+.hours-wrapper {
+  width: 400px;
+  padding: 0;
+  /* margin-bottom: 10px; */
+  display: inline-block;
+
 }
 
 .hours {
+  
   padding: 20px;
+  /* position: relative; */
+
 }
 
-.aboutheading {
+.aboutheading{
   background-color: white;
-  padding: 20px;
-  margin-top: 20px;
+  padding: 25px;
+  margin:0;
 }
 
 .about_ambass {
     background-color: white;
     padding: 20px;
-    margin-top: 20px;
+    margin-top:0;
 }
 
 .aboutlocation {
   padding: 20px;
-  margin-top: 20px;
+  margin-top:0;
 }
 
-.about_card {
+.about_rightrail {
   background-color: white;
   padding: 20px;
   margin-top: 20px;
@@ -471,10 +484,6 @@ img {
 
 /*/////////////////////////////////////////////////////////////////////////////////JULIANNE ||  ANNUAL REPORT///////////////////////////////////////////////////////////////////////////// */
 
-.reporttitle {
-  margin:30px;
-  padding:0px;
-}
 
 .report_photo_1 {
   padding: 25px;
@@ -485,12 +494,17 @@ img {
   padding: 20px;
   width: 400px;
   margin: 48px;
-
 }
 
-.annualreportdownload {
-  
+.reporttitle {
+  text-align: center;
+  margin:30px;
+  padding:0px;
+  margin-bottom: 0;
 }
+
+
+
 /*//////////////////////////////////////////////////////////////
 ///////////////////JULIANNE ||  HOLIDAY///////////////////////////////////////////////////////////////////////////// */
 
