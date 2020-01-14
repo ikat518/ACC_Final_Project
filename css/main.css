@@ -425,6 +425,7 @@ img {
 
 .map {
   float: left;
+  margin-top: 4px;
   padding: 15px;
   position: relative;
 }
