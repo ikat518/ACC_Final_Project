@@ -152,30 +152,54 @@ h1 {
 //////////////////////////////////////////////////////////// */
 
 .nav {
-  align-content: center;
+  display: flex;
+  background: white;
   width: 100%;
-  padding: 30px;
-  margin-bottom: 100px;
+  height: 100px;
+  align-content: center;
+  margin-top: 20px;
+  margin-left: 250px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.mobile-nav {
+  display: none;
+}
+.mobile-logo {
+  display: none;
 }
 .nav a {
   display: inline-flex;
   padding: 60px 30px;
   text-decoration: none;
   color: #066577;
-  margin-left: 40px;
 }
 .nav a:hover {
   color: #4dc5d6;
 }
+
 .nav div {
   position: relative;
   float: left;
 }
-.logo {
-  float: left;
-  padding-top: 30px;
-  padding-left: 10px;
+
+.donate ul {
+  position: absolute;
+  top: 75px;
+  display: none;
 }
+
+.donate:hover ul {
+  display: block;
+}
+
+.donate ul li {
+  padding: 10px;
+}
+.nav-logo {
+  margin-top: 30px;
+}
+
 /* ///////////////////////////////////////////////////////////
 //////////////////////////ICONS//////////////////////////////////////////////////////////////////////////////////////////////// */
 .fa-envelope-square {
@@ -365,7 +389,7 @@ h1 {
 
 .staffoverlay {
   position: absolute;
-  padding:15px;
+  padding: 15px;
   top: 0;
   bottom: 0;
   left: 0;
@@ -383,7 +407,7 @@ img,
 
 img {
   display: inline;
-  max-width:100%;
+  max-width: 100%;
   /*  border-radius: */
 }
 
@@ -401,41 +425,38 @@ img {
 
 .map {
   float: left;
+  margin-top: 4px;
   padding: 15px;
   position: relative;
 }
-
 
 .hours-wrapper {
   width: 400px;
   padding: 0;
   /* margin-bottom: 10px; */
   display: inline-block;
-
 }
 
 .hours {
-  
   padding: 20px;
   /* position: relative; */
-
 }
 
-.aboutheading{
+.aboutheading {
   background-color: white;
   padding: 25px;
-  margin:0;
+  margin: 0;
 }
 
 .about_ambass {
-    background-color: white;
-    padding: 20px;
-    margin-top:0;
+  background-color: white;
+  padding: 20px;
+  margin-top: 0;
 }
 
 .aboutlocation {
   padding: 20px;
-  margin-top:0;
+  margin-top: 0;
 }
 
 .about_rightrail {
@@ -456,7 +477,6 @@ img {
 
 /*/////////////////////////////////////////////////////////////////////////////////JULIANNE ||  ANNUAL REPORT///////////////////////////////////////////////////////////////////////////// */
 
-
 .report_photo_1 {
   padding: 25px;
   width: 500px;
@@ -470,12 +490,10 @@ img {
 
 .reporttitle {
   text-align: center;
-  margin:30px;
-  padding:0px;
+  margin: 30px;
+  padding: 0px;
   margin-bottom: 0;
 }
-
-
 
 /*//////////////////////////////////////////////////////////////
 ///////////////////JULIANNE ||  HOLIDAY///////////////////////////////////////////////////////////////////////////// */
@@ -774,10 +792,10 @@ span.price {
 /* /////////////////////////////////////////////////////////////////////////////////////KAT || PROGRAMS CSS//////////////////////////////////////////////////////////////////////////////////////// */
 
 .programs-header {
- text-transform: uppercase;
- text-align: center;
-} 
-.programs-container{
+  text-transform: uppercase;
+  text-align: center;
+}
+.programs-container {
   padding-top: 30px;
   width: 100%;
 }
@@ -799,8 +817,7 @@ span.price {
   padding: 20px;
 }
 .past-programs {
-  margin-left: 150px;
-  width: 200px;
+  margin-left: 60px;
 }
 .past-programs-header {
   text-align: center;
@@ -808,11 +825,12 @@ span.price {
   text-transform: uppercase;
 }
 .past-programs-card {
+  width: 200px;
   text-align: center;
   margin-bottom: 40px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .past-programs-img {
-  margin: auto;
-  padding: 0px;
+  width: 200px;
+  padding: 10px;
 }
