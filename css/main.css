@@ -637,15 +637,8 @@ margin-left: 400px;
   font-size: 20px;
   color: #a41360;;
 }
-.pro {
+.profile {
   position: relative;
-}
-.about-rightcolumn {
-  float: left;
-  width: 25%;
-  background-color: #c0e4f4;
-  padding-left: 20px;
-  margin: 0;
 }
 .home-imgoverlay{
   position: absolute;
@@ -664,7 +657,6 @@ margin-left: 400px;
   width: 350px;
   padding: 25px;
   margin-bottom: 10px;
-  /* border-radius: 5px; */
   display: inline-block;
 }
 
@@ -683,7 +675,6 @@ margin-left: 400px;
   text-align: center;
   line-height: 65px;
   flex-basis: content;
-  /* font-size: 30px; */
 }
 #home-title-text {
   text-align: center;
@@ -697,7 +688,7 @@ margin-left: 400px;
   background-color: #df1f86;
   color: white;
   
-}
+} 
 
 .flex-containerhome3 > div {
   background-color: #df1f86;
