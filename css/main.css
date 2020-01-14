@@ -359,7 +359,7 @@ h1 {
   margin: 0;
 }
 
-.home-profile1 {
+.profile {
   position: relative;
 }
 
@@ -629,13 +629,6 @@ margin-left: 400px;
   padding-left: 20px;
   margin: 0;
 }
-.mission{
-  background-color: rgb(255, 255, 255);
-  padding: 25px;
-  text-align: center;
-  margin:0;
-}
-
 .home-imgoverlay{
   position: absolute;
   padding:15px;
@@ -649,7 +642,7 @@ margin-left: 400px;
   transition: all 300ms ease;
 }
 
-.staff-wrapper {
+.home-wrapper {
   width: 350px;
   padding: 25px;
   margin-bottom: 10px;
