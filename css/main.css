@@ -152,30 +152,53 @@ h1 {
 //////////////////////////////////////////////////////////// */
 
 .nav {
-  align-content: center;
+  display: flex;
+  background: white;
   width: 100%;
-  padding: 10px 0px 20px 100px;
-  margin-bottom: 100px;
-  height: 60px; 
+  height: 100px;
+  align-content: center;
+  margin-top: 20px;
+  margin-left: 250px;
+  margin-bottom: 50px;
+  width: 100%;
+}
+.mobile-nav {
+  display: none;
+}
+.mobile-logo {
+  display: none;
 }
 .nav a {
   display: inline-flex;
+  padding: 60px 30px;
   text-decoration: none;
-  color: #066577; 
+  color: #066577;
 }
 .nav a:hover {
   color: #4dc5d6;
 }
+
 .nav div {
   position: relative;
   float: left;
 }
-.nav-logo {
-  margin-top: 60px;
-  padding-top: 30px;
-  padding-left: 10px;
+
+.donate ul {
+  position: absolute;
+  top: 75px;
+  display: none;
 }
 
+.donate:hover ul {
+  display: block;
+}
+
+.donate ul li {
+  padding: 10px;
+}
+.nav-logo {
+  margin-top: 30px;
+}
 
 /* ///////////////////////////////////////////////////////////
 //////////////////////////ICONS//////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -366,7 +389,7 @@ h1 {
 
 .staffoverlay {
   position: absolute;
-  padding:15px;
+  padding: 15px;
   top: 0;
   bottom: 0;
   left: 0;
@@ -384,7 +407,7 @@ img,
 
 img {
   display: inline;
-  max-width:100%;
+  max-width: 100%;
   /*  border-radius: */
 }
 
@@ -406,37 +429,33 @@ img {
   position: relative;
 }
 
-
 .hours-wrapper {
   width: 400px;
   padding: 0;
   /* margin-bottom: 10px; */
   display: inline-block;
-
 }
 
 .hours {
-  
   padding: 20px;
   /* position: relative; */
-
 }
 
-.aboutheading{
+.aboutheading {
   background-color: white;
   padding: 25px;
-  margin:0;
+  margin: 0;
 }
 
 .about_ambass {
-    background-color: white;
-    padding: 20px;
-    margin-top:0;
+  background-color: white;
+  padding: 20px;
+  margin-top: 0;
 }
 
 .aboutlocation {
   padding: 20px;
-  margin-top:0;
+  margin-top: 0;
 }
 
 .about_rightrail {
@@ -457,7 +476,6 @@ img {
 
 /*/////////////////////////////////////////////////////////////////////////////////JULIANNE ||  ANNUAL REPORT///////////////////////////////////////////////////////////////////////////// */
 
-
 .report_photo_1 {
   padding: 25px;
   width: 500px;
@@ -471,12 +489,10 @@ img {
 
 .reporttitle {
   text-align: center;
-  margin:30px;
-  padding:0px;
+  margin: 30px;
+  padding: 0px;
   margin-bottom: 0;
 }
-
-
 
 /*//////////////////////////////////////////////////////////////
 ///////////////////JULIANNE ||  HOLIDAY///////////////////////////////////////////////////////////////////////////// */
@@ -698,10 +714,10 @@ span.price {
 /* /////////////////////////////////////////////////////////////////////////////////////KAT || PROGRAMS CSS//////////////////////////////////////////////////////////////////////////////////////// */
 
 .programs-header {
- text-transform: uppercase;
- text-align: center;
-} 
-.programs-container{
+  text-transform: uppercase;
+  text-align: center;
+}
+.programs-container {
   padding-top: 30px;
   width: 100%;
 }
