@@ -359,7 +359,7 @@ h1 {
   margin: 0;
 }
 
-.profile {
+.home-profile1 {
   position: relative;
 }
 
@@ -577,32 +577,86 @@ a:hover {
 .home-rightcolumn {
   position: relative;
   float: right;
-  right: 125px;
+  right: 12px;
   width: 25%;
   margin-top: 5px;
 }
 .card3{
-  height: 50%;
-  width: 50%;
-  margin-top: 5px;
+  height: 100%;
+  width: 100%;
+  line-height: 100px;
+  margin-top: 50px;
  
 }
 .flex-containerhome {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 200px;
-  background-color: #df1f86;
+  height: 150px;
+ 
 }
 
 .flex-containerhome > div {
   background-color: #df1f86;
   color: #df1f86;
-  width: 100px;
-  height: 100px;
+  width: 100%;
+  height: 100%;
   text-align: center;
-  margin-right: 400px;
+  
 }
+.flex-containerhome img{
+  justify-content: center;
+  margin-left: 500px;
+  margin-top: 30px;
+
+}
+.puppy img{
+margin-left: 400px;
+}
+.test > p {
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: 20px;
+  color: #a41360;;
+}
+.pro {
+  position: relative;
+}
+.about-rightcolumn {
+  float: left;
+  width: 25%;
+  background-color: #c0e4f4;
+  padding-left: 20px;
+  margin: 0;
+}
+.mission{
+  background-color: rgb(255, 255, 255);
+  padding: 25px;
+  text-align: center;
+  margin:0;
+}
+
+.home-imgoverlay{
+  position: absolute;
+  padding:15px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: white;
+  background: rgba(79, 79, 153, 0.38);
+  opacity: 0;
+  transition: all 300ms ease;
+}
+
+.staff-wrapper {
+  width: 350px;
+  padding: 25px;
+  margin-bottom: 10px;
+  /* border-radius: 5px; */
+  display: inline-block;
+}
+
 .flex-containerhome2 {
   display: flex;
   justify-content: center;
@@ -631,6 +685,7 @@ a:hover {
   height: 55px;
   background-color: #df1f86;
   color: white;
+  
 }
 
 .flex-containerhome3 > div {
@@ -640,6 +695,7 @@ a:hover {
   height: 5px;
   text-align: center;
   margin-right: 400px;
+
 }
 
 
