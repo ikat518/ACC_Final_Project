@@ -64,13 +64,12 @@ a {
   .nav {
     display: flex;
     background: white;
-    width: 100%;
+    width: auto;
     height: 100px;
     align-content: center;
     margin-top: 20px;
-    margin-left: 150px;
+    margin-left: 50px;
     margin-bottom: 50px;
-    width: 100%;
   }
 }
 
@@ -138,8 +137,6 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     float: none;
-    margin: 0;
-    padding: 0;
   }
 
   .home-transparency {
@@ -148,16 +145,14 @@ a {
     background: linear-gradient(
         to right,
         rgba(6, 101, 119, 1) 0%,
-        rgba(192, 228, 244, 0.5536415249693627) 95%,
-        rgba(223, 31, 134, 0.710504270067402) 0%
+        rgba(192, 228, 244, 0.46680679107580536) 65%,
+        rgba(223, 31, 134, 1) 100%
       ),
       url("../img/hero_cutie_pup.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     float: none;
-    margin: 0;
-    padding: 0;
   }
 
   .leftcolumn,
@@ -212,7 +207,7 @@ a {
 
   .nav {
     margin-bottom: 50px;
-    width: 100%;
+    width: auto;
   }
   .nav a {
     display: inline-flex;
@@ -236,6 +231,30 @@ a {
   .mobile-nav-logo {
     display: none;
   }
+
+  .footer-column-1 {
+    float: left;
+    width: 100%;
+    color: rgb(245, 243, 238);
+    background-color: black;
+    margin: 0;
+  }
+
+  .footer-column {
+    float: left;
+    width: 50%;
+    color: rgb(245, 243, 238);
+    background-color: black;
+    margin: 0;
+  }
+
+  .social1 {
+    float: left;
+    width: 100%;
+    height: 100%;
+    color: rgb(245, 243, 238);
+    background-color: black;
+  }
 }
 /* ///////////Responsive - Screen is less than 800px wide ///////////*/
 @media screen and (max-width: 800px) {
@@ -250,10 +269,11 @@ a {
   .mobile-nav {
     display: block;
     color: #066577;
-    width: 100%;
+    width: auto;
   }
   .mobile-nav div {
     height: 1rem;
+    width: auto;
     padding: 1rem;
     margin-top: 1rem;
     margin-left: 1rem;
@@ -288,7 +308,7 @@ a {
 
   .adoptables {
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto;
     grid-template-rows: auto auto;
     grid-gap: 10px;
   }
@@ -331,7 +351,7 @@ a {
   .mobile-nav {
     display: block;
     color: #066577;
-    width: 100%;
+    width: auto;
     line-height: 30px;
     padding: 20px;
     margin-top: 20px;
@@ -348,6 +368,24 @@ a {
   ul {
     list-style: none;
   }
+
+  .footer-column {
+    float: left;
+    width: 100%;
+    height: auto;
+    color: rgb(245, 243, 238);
+    background-color: black;
+    margin: 0;
+  }
+
+  .social1 {
+    float: left;
+    width: 100%;
+    line-height: 35px;
+    color: rgb(245, 243, 238);
+    background-color: black;
+    margin: 0;
+  }
 }
 
 /* ///////////Responsive - Screen is less than 400px wide ///////////*/
@@ -355,7 +393,7 @@ a {
   .adoptables {
     display: grid;
     grid-template-columns: auto;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto;
     grid-gap: 10px;
   }
   .shop {
