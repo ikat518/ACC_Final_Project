@@ -506,6 +506,9 @@ img {
 a:hover {
   color: #066577;
 }
+.a:hover{
+  color: white;
+}
 .social1 {
   float: left;
   width: 25%;
@@ -683,7 +686,7 @@ a:hover {
   padding-top: 25px;
   color: rgb(245, 243, 238);
   background-color: black;
-  padding-bottom: 55px;
+  padding-bottom: 70px;
   margin-bottom: 0px;
 }
 
@@ -694,7 +697,7 @@ a:hover {
   padding-top: 25px;
   color: rgb(245, 243, 238);
   background-color: black;
-  padding-bottom: 88px;
+  padding-bottom: 87px;
 }
 .footer-column-2-programs {
   float: left;
@@ -703,17 +706,17 @@ a:hover {
   padding-top: 25px;
   color: rgb(245, 243, 238);
   background-color: black;
-  padding-bottom: 82.5px;
+  padding-bottom: 78px;
 }
 .social1-programs{
-  float: left;
+  float: right;
   width: 25%;
   line-height: 35px;
   color: rgb(245, 243, 238);
   background-color: black;
   margin: 0;
   padding-top: 25px;
-  padding-bottom: 111px;
+  padding-bottom: 125.3px;
 }
 .social1-programs a {
   padding-left: 5px;
@@ -725,6 +728,7 @@ a:hover {
   color: rgb(253, 247, 247);
   clear: both;
 }
+
 /* ///////////////////////////////////////////////////////////////////////////////Home css////////////////////////////////////////////// */
 .home-rightcolumn {
   position: relative;
