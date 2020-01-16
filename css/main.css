@@ -545,7 +545,7 @@ img {
   padding-top: 25px;
   color: rgb(245, 243, 238);
   background-color: black;
-  padding-bottom: 35.4px;
+  padding-bottom: 41px;
 }
 a:hover {
   color: #066577;
@@ -561,7 +561,7 @@ a:hover {
   background-color: black;
   margin: 0;
   padding-top: 25px;
-  padding-bottom: 109px;
+  padding-bottom: 110px;
 }
 .social1 a {
   padding-left: 5px;
@@ -661,6 +661,7 @@ a:hover {
   margin: 0;
   padding-top: 25px;
   padding-bottom: 111px;
+  
 }
 .social1-adoptables a {
   padding-left: 5px;
@@ -814,7 +815,10 @@ a:hover {
 .puppy img {
   margin-left: 400px;
 }
-.test > p {
+.puppybutton img {
+  margin-left: 400px;
+}
+.text > p {
   text-align: center;
   font-family: "Indie Flower", cursive;
   font-size: 20px;
